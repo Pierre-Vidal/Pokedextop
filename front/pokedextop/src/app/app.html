@@ -19,10 +19,10 @@
           </defs>
         </svg>
       </div>
-      
+
       <span class="brand-text">Pokédextop</span>
     </a>
-    
+
     <!-- Bouton menu mobile -->
     <button class="navbar-toggler border-0 shadow-sm" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNav" aria-controls="navbarNav"
@@ -33,11 +33,30 @@
     <!-- Menu -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto align-items-lg-center" style="gap: 8px;">
-        
+
+        <!-- Bouton Liste des Pokémons -->
+        <li class="nav-item">
+          <a class="nav-link nav-btn d-flex align-items-center"
+             routerLink="/pokemon"
+             routerLinkActive="active"
+             style="gap: 8px;">
+            <!-- Icon List -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="8" y1="6" x2="21" y2="6"/>
+              <line x1="8" y1="12" x2="21" y2="12"/>
+              <line x1="8" y1="18" x2="21" y2="18"/>
+              <line x1="3" y1="6" x2="3.01" y2="6"/>
+              <line x1="3" y1="12" x2="3.01" y2="12"/>
+              <line x1="3" y1="18" x2="3.01" y2="18"/>
+            </svg>
+            <span>Liste des Pokémons</span>
+          </a>
+        </li>
+
         <!-- Bouton Mes Pokémons -->
         <li class="nav-item">
-          <a class="nav-link nav-btn d-flex align-items-center" 
-             routerLink="/pokedex" 
+          <a class="nav-link nav-btn d-flex align-items-center"
+             routerLink="/pokedex"
              routerLinkActive="active"
              style="gap: 8px;">
             <!-- Icon Pokédex -->
@@ -52,22 +71,36 @@
             <span>Mes Pokémons</span>
           </a>
         </li>
-        
-        <!-- Bouton Login -->
+
+        <!-- Bouton Login / Déconnexion -->
         <li class="nav-item">
-          <a class="nav-link nav-btn nav-btn-primary d-flex align-items-center" 
-             routerLink="/login" 
-             routerLinkActive="active"
-             style="gap: 8px;">
-            <!-- Icon User/Trainer -->
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-              <circle cx="12" cy="7" r="4"/>
-            </svg>
-            <span>Login</span>
-          </a>
+          @if (authService.isAuthenticated()) {
+            <button class="nav-link nav-btn nav-btn-primary d-flex align-items-center"
+                    (click)="logout()"
+                    style="gap: 8px; border: none;">
+              <!-- Icon Logout -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+                <polyline points="16 17 21 12 16 7"/>
+                <line x1="21" y1="12" x2="9" y2="12"/>
+              </svg>
+              <span>Déconnexion</span>
+            </button>
+          } @else {
+            <a class="nav-link nav-btn nav-btn-primary d-flex align-items-center"
+               routerLink="/login"
+               routerLinkActive="active"
+               style="gap: 8px;">
+              <!-- Icon User/Trainer -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
+              <span>Login</span>
+            </a>
+          }
         </li>
-        
+
       </ul>
     </div>
   </div>
@@ -200,7 +233,7 @@
       padding-top: 1rem;
       gap: 0.5rem !important;
     }
-    
+
     .nav-btn {
       width: 100%;
       justify-content: flex-start;

@@ -1,0 +1,50 @@
+:host {
+  display: flex;
+  min-height: calc(100vh - 70px);
+  padding-top: 3rem;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Boutons de formulaire */
+.btn-primary {
+  background-color: #DC0A2D;
+  border-color: #DC0A2D;
+}
+
+.btn-primary:hover {
+  background-color: #C00A28;
+  border-color: #C00A28;
+}
+
+.btn-success {
+  background-color: #DC0A2D;
+  border-color: #DC0A2D;
+}
+
+.btn-success:hover {
+  background-color: #C00A28;
+  border-color: #C00A28;
+}
+
+/* Navigation pills (onglets) */
+.nav-pills .nav-link {
+  color: #DC0A2D;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #DC0A2D;
+  color: white;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: rgba(220, 10, 45, 0.1);
+}
+
+/* Contour des champs de formulaire au focus */
+.form-control:focus {
+  border-color: #DC0A2D;
+  box-shadow: 0 0 0 0.25rem rgba(220, 10, 45, 0.25);
+}
