@@ -26,4 +26,8 @@ export class PokemonService {
 
     return this.http.get<Pokemon[]>(this.apiUrl, { params });
   }
+
+  getAllPokemons(): Observable<Pokemon[]> {
+    return this.http.get<Pokemon[]>(this.apiUrl);
+  }
 }

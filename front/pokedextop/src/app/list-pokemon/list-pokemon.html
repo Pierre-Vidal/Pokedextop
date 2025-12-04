@@ -1,4 +1,30 @@
 <div class="container mt-4">
+  <!-- Search Bar -->
+  <div class="row mb-4">
+    <div class="col-md-6 mx-auto">
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Rechercher un Pokémon par nom ou type..."
+          [(ngModel)]="searchTerm"
+          (ngModelChange)="onSearchChange()"
+        >
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          (click)="clearSearch()"
+          [disabled]="!searchTerm"
+        >
+          Effacer
+        </button>
+      </div>
+      <small class="text-muted d-block mt-2">
+        {{filteredPokemons.length}} Pokémon(s) trouvé(s)
+      </small>
+    </div>
+  </div>
+
   <div class="row">
     <div class="col-md-4 mb-4" *ngFor="let pokemon of pokemons">
       <div class="card pokemon-card text-center p-2">
