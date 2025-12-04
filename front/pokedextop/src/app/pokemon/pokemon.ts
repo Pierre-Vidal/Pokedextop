@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { ListPokemon } from '../list-pokemon/list-pokemon';
 
 @Component({
   selector: 'app-pokemon',
-  imports: [],
+  imports: [ListPokemon],
   templateUrl: './pokemon.html',
   styleUrl: './pokemon.css',
 })
