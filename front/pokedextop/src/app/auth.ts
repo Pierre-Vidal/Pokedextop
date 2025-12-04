@@ -117,4 +117,55 @@ export class Auth {
   get isAuthenticated$() {
     return this.currentUserSignal;
   }
+
+  // PUT - Modifier tout le profil utilisateur
+  updateUserProfile(userId: number, username: string, password: string): Observable<User> {
+    const updatedUser: User = {
+      id: userId,
+      username: username,
+      password: password
+    };
+
+    return this.http.put<User>(`${this.apiUrl}/${userId}`, updatedUser).pipe(
+      tap(user => {
+        // Générer un nouveau token avec le nouveau username
+        const token = JwtHelper.generateToken(user.id, user.username);
+        localStorage.setItem('token', token);
+        localStorage.setItem('currentUser', JSON.stringify(user));
+        this.currentUserSignal.set(user);
+      }),
+      catchError(error => {
+        return throwError(() => new Error('Erreur lors de la mise à jour du profil'));
+      })
+    );
+  }
+
+  // PATCH - Modifier uniquement le username
+  updateUsername(userId: number, newUsername: string): Observable<User> {
+    return this.http.patch<User>(`${this.apiUrl}/${userId}`, { username: newUsername }).pipe(
+      tap(user => {
+        // Générer un nouveau token avec le nouveau username
+        const token = JwtHelper.generateToken(user.id, user.username);
+        localStorage.setItem('token', token);
+        localStorage.setItem('currentUser', JSON.stringify(user));
+        this.currentUserSignal.set(user);
+      }),
+      catchError(error => {
+        return throwError(() => new Error('Erreur lors de la mise à jour du nom d\'utilisateur'));
+      })
+    );
+  }
+
+  // PATCH - Modifier uniquement le mot de passe
+  updatePassword(userId: number, newPassword: string): Observable<User> {
+    return this.http.patch<User>(`${this.apiUrl}/${userId}`, { password: newPassword }).pipe(
+      tap(user => {
+        localStorage.setItem('currentUser', JSON.stringify(user));
+        this.currentUserSignal.set(user);
+      }),
+      catchError(error => {
+        return throwError(() => new Error('Erreur lors de la mise à jour du mot de passe'));
+      })
+    );
+  }
 }

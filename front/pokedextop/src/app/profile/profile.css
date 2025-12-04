@@ -1,0 +1,276 @@
+/* Header du profil */
+.profile-header h2 {
+  color: #DC0A2D;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Carte de profil */
+.profile-card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-card .card-header {
+  background: linear-gradient(135deg, #DC0A2D 0%, #C00A28 100%);
+  color: white;
+  border-radius: 15px 15px 0 0 !important;
+  padding: 20px;
+}
+
+.profile-card .card-header h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.profile-card .card-body {
+  padding: 30px;
+}
+
+/* Box d'information */
+.info-box {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-left: 4px solid #DC0A2D;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.info-box h6 {
+  color: #DC0A2D;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.info-box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.info-box li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Formulaires */
+.form-label {
+  color: #495057;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.form-label small {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-left: 5px;
+}
+
+.form-control {
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  padding: 12px 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+  border-color: #DC0A2D;
+  box-shadow: 0 0 0 0.25rem rgba(220, 10, 45, 0.25);
+  outline: none;
+}
+
+input.form-control::placeholder {
+  color: #adb5bd;
+  font-style: italic;
+}
+
+/* Boutons */
+.btn-primary {
+  background-color: #DC0A2D;
+  border-color: #DC0A2D;
+  padding: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s;
+  font-size: 1.05rem;
+}
+
+.btn-primary:hover {
+  background-color: #C00A28;
+  border-color: #C00A28;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(220, 10, 45, 0.3);
+}
+
+.btn-primary:disabled {
+  background-color: #DC0A2D;
+  border-color: #DC0A2D;
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-outline-secondary {
+  color: #DC0A2D;
+  border-color: #DC0A2D;
+  border-width: 2px;
+  padding: 10px 30px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #DC0A2D;
+  border-color: #DC0A2D;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Badges de méthode HTTP */
+.method-badge-inline {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.method-badge-large {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.put-badge {
+  background-color: #DC0A2D;
+  color: white;
+  border: 2px solid #DC0A2D;
+}
+
+.patch-badge {
+  background-color: #6c757d;
+  color: white;
+  border: 2px solid #6c757d;
+}
+
+/* Alertes personnalisées */
+.alert {
+  border-radius: 10px;
+  border: none;
+  padding: 15px 20px;
+  font-weight: 500;
+}
+
+.alert-success {
+  background-color: rgba(40, 167, 69, 0.15);
+  color: #28a745;
+  border-left: 4px solid #28a745;
+}
+
+.alert-danger {
+  background-color: rgba(220, 10, 45, 0.15);
+  color: #DC0A2D;
+  border-left: 4px solid #DC0A2D;
+}
+
+.alert .btn-close {
+  padding: 0.5rem;
+}
+
+/* Carte d'information */
+.info-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px solid #dee2e6;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.info-card .card-title {
+  color: #DC0A2D;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.method-explanation {
+  text-align: center;
+  padding: 15px;
+}
+
+.method-explanation p {
+  margin-bottom: 8px;
+  color: #495057;
+}
+
+.method-explanation p.small {
+  font-size: 0.9rem;
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+.method-explanation p.example {
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+  border: 1px solid #dee2e6;
+}
+
+/* Spinner */
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+  border-width: 0.15em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile-card .card-body {
+    padding: 20px;
+  }
+
+  .profile-header h2 {
+    font-size: 1.75rem;
+  }
+
+  .info-box {
+    padding: 15px;
+  }
+
+  .method-explanation {
+    margin-bottom: 20px;
+  }
+}
+
+/* Animation pour la carte */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profile-card {
+  animation: slideInUp 0.5s ease-out;
+}
+
+.info-card {
+  animation: slideInUp 0.6s ease-out;
+}

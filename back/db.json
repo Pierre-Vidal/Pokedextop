@@ -19,6 +19,16 @@
       "id": "fce4",
       "username": "bonjour",
       "password": "bonjour"
+    },
+    {
+      "id": "deec",
+      "username": "pierrer",
+      "password": "456789"
+    },
+    {
+      "id": "62ce",
+      "username": "pierre2",
+      "password": "123456"
     }
   ],
   "pokemons": [
@@ -1660,6 +1670,61 @@
       "id": "fa47",
       "userId": "fce4",
       "pokemonId": 3
+    },
+    {
+      "id": "c332",
+      "userId": "1",
+      "pokemonId": 6
+    },
+    {
+      "id": "0494",
+      "userId": "1",
+      "pokemonId": 44
+    },
+    {
+      "id": "c3dc",
+      "userId": "1",
+      "pokemonId": 1
+    },
+    {
+      "id": "40a3",
+      "userId": "1",
+      "pokemonId": 2
+    },
+    {
+      "id": "36a2",
+      "userId": "1",
+      "pokemonId": 4
+    },
+    {
+      "id": "6e31",
+      "userId": "1",
+      "pokemonId": 5
+    },
+    {
+      "id": "38d4",
+      "userId": "deec",
+      "pokemonId": 1
+    },
+    {
+      "id": "5d59",
+      "userId": "deec",
+      "pokemonId": 2
+    },
+    {
+      "id": "066d",
+      "userId": "deec",
+      "pokemonId": 3
+    },
+    {
+      "id": "eaa1",
+      "userId": "deec",
+      "pokemonId": 33
+    },
+    {
+      "id": "d831",
+      "userId": "deec",
+      "pokemonId": 32
     }
   ]
 }

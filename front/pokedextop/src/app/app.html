@@ -72,6 +72,23 @@
           </a>
         </li>
 
+        <!-- Bouton Mon Profil -->
+        @if (authService.isAuthenticated()) {
+          <li class="nav-item">
+            <a class="nav-link nav-btn d-flex align-items-center"
+               routerLink="/profile"
+               routerLinkActive="active"
+               style="gap: 8px;">
+              <!-- Icon Profile -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
+              <span>Mon Profil</span>
+            </a>
+          </li>
+        }
+
         <!-- Bouton Login / Déconnexion -->
         <li class="nav-item">
           @if (authService.isAuthenticated()) {
