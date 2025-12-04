@@ -32,6 +32,9 @@ export class Pokedex implements OnInit {
   loadMyPokemons(): void {
     this.isLoading = true;
 
+    // Force le service à recharger les pokemons du user connecté
+    this.userPokemonService.refreshUserPokemons();
+
     // Récupérer tous les Pokémon
     this.pokemonService.getAllPokemons().subscribe({
       next: (allPokemons) => {

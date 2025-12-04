@@ -14,6 +14,11 @@
       "id": "4472",
       "username": "pablo",
       "password": "pablo123"
+    },
+    {
+      "id": "08f2",
+      "username": "user1",
+      "password": "user1234"
     }
   ],
   "pokemons": [
@@ -1655,6 +1660,16 @@
       "id": "039e",
       "userId": 1,
       "pokemonId": 2
+    },
+    {
+      "id": "4a66",
+      "userId": "2",
+      "pokemonId": 2
+    },
+    {
+      "id": "72f6",
+      "userId": "08f2",
+      "pokemonId": 6
     }
   ]
 }
