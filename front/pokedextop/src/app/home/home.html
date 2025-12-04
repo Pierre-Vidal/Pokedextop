@@ -1,0 +1,90 @@
+<div class="home-container">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <!-- Logo Hero -->
+      <div class="hero-logo">
+        <svg width="120" height="120" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="48" fill="#DC0A2D" stroke="#1D1D1D" stroke-width="4"/>
+          <path d="M 10 50 L 90 50" stroke="#1D1D1D" stroke-width="8"/>
+          <circle cx="50" cy="50" r="48" fill="url(#gradient)" opacity="0.3"/>
+          <circle cx="50" cy="50" r="15" fill="white" stroke="#1D1D1D" stroke-width="4"/>
+          <circle cx="50" cy="50" r="8" fill="white" stroke="#666" stroke-width="2"/>
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color:#DC0A2D;stop-opacity:0" />
+              <stop offset="50%" style="stop-color:white;stop-opacity:0" />
+              <stop offset="50%" style="stop-color:#1D1D1D;stop-opacity:0" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <!-- Titre -->
+      <h1 class="hero-title">Bienvenue sur Pokédextop</h1>
+
+      <!-- Sous-titre -->
+      <p class="hero-subtitle">L'application ultime pour explorer et gérer votre collection Pokémon</p>
+
+      <!-- Description -->
+      <p class="hero-description">
+        Découvrez une plateforme complète dédiée aux fans de Pokémon. Consultez le Pokédex complet, gérez votre collection personnelle et explorez les détails de vos Pokémon favoris.
+      </p>
+
+      <!-- CTA Button -->
+      <a routerLink="/login" class="cta-button">
+        <span>Commencer</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+          <circle cx="12" cy="7" r="4"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Decoration -->
+    <div class="hero-decoration">
+      <div class="decoration-ball"></div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="2" width="20" height="20" rx="2"/>
+            <circle cx="12" cy="12" r="4"/>
+            <line x1="12" y1="2" x2="12" y2="8"/>
+            <line x1="12" y1="16" x2="12" y2="22"/>
+            <line x1="2" y1="12" x2="8" y2="12"/>
+            <line x1="16" y1="12" x2="22" y2="12"/>
+          </svg>
+        </div>
+        <h3>Pokédex Complet</h3>
+        <p>Accédez à la base de données complète de tous les Pokémon avec leurs détails</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L15.09 8.26H22L17.55 12.5L19.64 18.76L12 14.51L4.36 18.76L6.45 12.5L2 8.26H8.91L12 2Z"/>
+          </svg>
+        </div>
+        <h3>Ma Collection</h3>
+        <p>Gérez votre collection personnelle de Pokémon favoris</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+        </div>
+        <h3>Informations Détaillées</h3>
+        <p>Explorez les statistiques, types et capacités de chaque Pokémon</p>
+      </div>
+    </div>
+  </section>
+</div>
