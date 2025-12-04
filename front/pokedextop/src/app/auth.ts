@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { Observable, throwError } from 'rxjs';
 import { map, catchError, tap, switchMap } from 'rxjs/operators';
+import { JwtHelper } from './jwt.helper';
 
 export interface User {
   id: number;
@@ -25,9 +26,17 @@ export class Auth {
   }
 
   private loadUserFromStorage(): void {
+    const token = localStorage.getItem('token');
     const userJson = localStorage.getItem('currentUser');
-    if (userJson) {
-      this.currentUserSignal.set(JSON.parse(userJson));
+
+    if (token && userJson) {
+      // Vérifier si le token est expiré
+      if (!JwtHelper.isTokenExpired(token)) {
+        this.currentUserSignal.set(JSON.parse(userJson));
+      } else {
+        // Token expiré, nettoyer le storage
+        this.logout();
+      }
     }
   }
 
@@ -43,6 +52,10 @@ export class Auth {
           throw new Error('Nom d\'utilisateur ou mot de passe incorrect');
         }
 
+        // Générer un faux JWT
+        const token = JwtHelper.generateToken(user.id, user.username);
+
+        localStorage.setItem('token', token);
         localStorage.setItem('currentUser', JSON.stringify(user));
         this.currentUserSignal.set(user);
         return user;
@@ -65,6 +78,10 @@ export class Auth {
         return this.http.post<User>(this.apiUrl, newUser);
       }),
       tap(createdUser => {
+        // Générer un faux JWT
+        const token = JwtHelper.generateToken(createdUser.id, createdUser.username);
+
+        localStorage.setItem('token', token);
         localStorage.setItem('currentUser', JSON.stringify(createdUser));
         this.currentUserSignal.set(createdUser);
       }),
@@ -75,17 +92,26 @@ export class Auth {
   }
 
   logout(): void {
+    localStorage.removeItem('token');
     localStorage.removeItem('currentUser');
     this.currentUserSignal.set(null);
     this.router.navigate(['/login']);
   }
 
   isAuthenticated(): boolean {
-    return this.currentUserSignal() !== null;
+    const token = localStorage.getItem('token');
+    if (!token) {
+      return false;
+    }
+    return this.currentUserSignal() !== null && !JwtHelper.isTokenExpired(token);
   }
 
   getCurrentUser(): User | null {
     return this.currentUserSignal();
+  }
+
+  getToken(): string | null {
+    return localStorage.getItem('token');
   }
 
   get isAuthenticated$() {
