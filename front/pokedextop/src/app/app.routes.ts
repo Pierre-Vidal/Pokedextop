@@ -13,6 +13,6 @@ export const routes: Routes = [
     {path: 'pokemon', component: Pokemon, canActivate: [authGuard]},
     {path: 'list-pokemon', component: ListPokemon, canActivate: [authGuard]},
 
-    {path : '', redirectTo: '/pokemon', pathMatch: 'full'},
-    {path: '**', redirectTo: '/pokemon'},
+    {path : '', redirectTo: '/home', pathMatch: 'full'},
+    {path: '**', redirectTo: '/home'},
 ];
