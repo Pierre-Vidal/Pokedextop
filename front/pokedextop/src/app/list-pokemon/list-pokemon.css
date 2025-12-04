@@ -1,0 +1,56 @@
+/* Carte Pokémon */
+.pokemon-card {
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+/* Image Pokémon centrée et dimensionnée */
+.pokemon-card img {
+  width: 120px;
+  height: 120px;
+}
+
+/* Effet au survol */
+.pokemon-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  background-color: #f8f9fa;
+}
+
+/* Badge type */
+.type-badge {
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-right: 4px;
+}
+
+/* Couleurs par type */
+.plante { background-color: #78C850; }
+.poison { background-color: #A040A0; }
+.feu { background-color: #F08030; }
+.eau { background-color: #6890F0; }
+.insecte { background-color: #A8B820; }
+.normal { background-color: #A8A878; }
+.vol { background-color: #A890F0; }
+.sol { background-color: #E0C068; }
+.électrik { background-color: #F8D030; color: #000; }
+.fée { background-color: #EE99AC; }
+.combat { background-color: #C03028; }
+.psy { background-color: #F85888; }
+.roche { background-color: #B8A038; }
+.glace { background-color: #98D8D8; }
+.dragon { background-color: #7038F8; }
+.spectre { background-color: #705898; }
+.acier { background-color: #B8B8D0; }
+
+/* Pour petits écrans, réduire taille image */
+@media (max-width: 576px) {
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+  }
+}
