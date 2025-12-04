@@ -2,6 +2,7 @@ import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { PokemonService, Pokemon } from '../pokemon-service';
+import { UserPokemonService } from '../user-pokemon.service';
 
 @Component({
   selector: 'app-list-pokemon',
@@ -21,7 +22,8 @@ export class ListPokemon implements OnInit {
 
   constructor(
     private pokemonService: PokemonService,
-    private cdr: ChangeDetectorRef
+    private cdr: ChangeDetectorRef,
+    public userPokemonService: UserPokemonService
   ) {}
 
   ngOnInit(): void {
@@ -116,5 +118,22 @@ export class ListPokemon implements OnInit {
     }
 
     return pages;
+  }
+
+  togglePokemon(pokemonId: number, event: Event): void {
+    event.stopPropagation();
+    this.userPokemonService.togglePokemon(pokemonId).subscribe({
+      next: () => {
+        console.log('Pokémon toggled:', pokemonId);
+        this.cdr.detectChanges();
+      },
+      error: (error) => {
+        console.error('Error toggling pokemon:', error);
+      }
+    });
+  }
+
+  hasPokemon(pokemonId: number): boolean {
+    return this.userPokemonService.hasPokemon(pokemonId);
   }
 }

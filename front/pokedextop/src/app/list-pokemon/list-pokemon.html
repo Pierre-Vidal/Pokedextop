@@ -27,7 +27,16 @@
 
   <div class="row">
     <div class="col-md-4 mb-4" *ngFor="let pokemon of pokemons">
-      <div class="card pokemon-card text-center p-2">
+      <div class="card pokemon-card text-center p-2 position-relative">
+        <button
+          class="btn-toggle position-absolute"
+          [class.active]="hasPokemon(+pokemon.id)"
+          (click)="togglePokemon(+pokemon.id, $event)"
+          title="{{hasPokemon(+pokemon.id) ? 'Dans ma collection' : 'Ajouter à ma collection'}}"
+        >
+          <span *ngIf="!hasPokemon(+pokemon.id)">+</span>
+          <span *ngIf="hasPokemon(+pokemon.id)">✓</span>
+        </button>
         <img [src]="pokemon.image" class="card-img-top mx-auto" alt="{{pokemon.name}}">
         <div class="card-body">
           <h5 class="card-title">{{pokemon.name}}</h5>

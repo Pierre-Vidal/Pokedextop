@@ -1594,5 +1594,67 @@
       "height": 4,
       "weight": 40
     }
+  ],
+  "userPokemons": [
+    {
+      "id": "ca4f",
+      "userId": 1,
+      "pokemonId": 5
+    },
+    {
+      "id": "7af9",
+      "userId": 1,
+      "pokemonId": 4
+    },
+    {
+      "id": "e4c0",
+      "userId": 1,
+      "pokemonId": 1
+    },
+    {
+      "id": "3977",
+      "userId": 1,
+      "pokemonId": 7
+    },
+    {
+      "id": "f4ff",
+      "userId": 1,
+      "pokemonId": 18
+    },
+    {
+      "id": "13f0",
+      "userId": 1,
+      "pokemonId": 42
+    },
+    {
+      "id": "b4b4",
+      "userId": 1,
+      "pokemonId": 41
+    },
+    {
+      "id": "7ecc",
+      "userId": 1,
+      "pokemonId": 17
+    },
+    {
+      "id": "f342",
+      "userId": 1,
+      "pokemonId": 14
+    },
+    {
+      "id": "1c9a",
+      "userId": 1,
+      "pokemonId": 15
+    },
+    {
+      "id": "b9e9",
+      "userId": 1,
+      "pokemonId": 13
+    },
+    {
+      "id": "039e",
+      "userId": 1,
+      "pokemonId": 2
+    }
   ]
 }

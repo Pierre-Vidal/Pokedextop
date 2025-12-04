@@ -4,6 +4,45 @@
   transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
   cursor: pointer;
   padding-bottom: 10px;
+  position: relative;
+}
+
+/* Bouton Toggle */
+.btn-toggle {
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  padding: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #999;
+}
+
+.btn-toggle:hover {
+  border-color: #DC0A2D;
+  color: #DC0A2D;
+  transform: scale(1.05);
+}
+
+.btn-toggle.active {
+  background: #DC0A2D;
+  border-color: #DC0A2D;
+  color: white;
+}
+
+.btn-toggle.active:hover {
+  background: #C00A28;
+  border-color: #C00A28;
 }
 
 /* Image Pokémon centrée et dimensionnée */

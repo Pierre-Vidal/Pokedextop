@@ -1,0 +1,162 @@
+/* Titre */
+h2 {
+  color: #DC0A2D;
+  font-weight: bold;
+}
+
+/* Carte Pok�mon */
+.pokemon-card {
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  cursor: pointer;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+/* Image Pok�mon centr�e et dimensionn�e */
+.pokemon-card img {
+  width: 120px;
+  height: 120px;
+}
+
+/* Effet au survol */
+.pokemon-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  background-color: #f8f9fa;
+}
+
+/* Bouton Retirer */
+.btn-remove {
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #DC0A2D;
+  background: #DC0A2D;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  padding: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-remove:hover {
+  transform: scale(1.2) rotate(90deg);
+  background: #C00A28;
+  border-color: #C00A28;
+  box-shadow: 0 4px 12px rgba(220, 10, 45, 0.4);
+}
+
+/* Badge type */
+.type-badge {
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-right: 4px;
+}
+
+/* Couleurs par type */
+.plante { background-color: #78C850; }
+.poison { background-color: #A040A0; }
+.feu { background-color: #F08030; }
+.eau { background-color: #6890F0; }
+.insecte { background-color: #A8B820; }
+.normal { background-color: #A8A878; }
+.vol { background-color: #A890F0; }
+.sol { background-color: #E0C068; }
+.�lectrik { background-color: #F8D030; color: #000; }
+.f�e { background-color: #EE99AC; }
+.combat { background-color: #C03028; }
+.psy { background-color: #F85888; }
+.roche { background-color: #B8A038; }
+.glace { background-color: #98D8D8; }
+.dragon { background-color: #7038F8; }
+.spectre { background-color: #705898; }
+.acier { background-color: #B8B8D0; }
+
+/* Spinner de chargement */
+.spinner-border.text-danger {
+  color: #DC0A2D !important;
+}
+
+/* Alert personnalis� */
+.alert-info {
+  background-color: rgba(220, 10, 45, 0.1);
+  border-color: #DC0A2D;
+  color: #DC0A2D;
+}
+
+.alert-info h4 {
+  color: #DC0A2D;
+}
+
+/* Barre de recherche */
+.form-control {
+  border: 2px solid #dee2e6;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+  border-color: #DC0A2D;
+  box-shadow: 0 0 0 0.25rem rgba(220, 10, 45, 0.25);
+}
+
+/* Bouton Effacer */
+.btn-outline-secondary {
+  color: #DC0A2D;
+  border-color: #DC0A2D;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #DC0A2D;
+  border-color: #DC0A2D;
+  color: white;
+}
+
+.btn-outline-secondary:disabled {
+  color: #6c757d;
+  border-color: #6c757d;
+  opacity: 0.5;
+}
+
+/* Pagination */
+.pagination .page-link {
+  color: #DC0A2D;
+  border-color: #dee2e6;
+  transition: all 0.3s;
+}
+
+.pagination .page-link:hover {
+  background-color: rgba(220, 10, 45, 0.1);
+  border-color: #DC0A2D;
+  color: #DC0A2D;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #DC0A2D;
+  border-color: #DC0A2D;
+  color: white;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+/* Pour petits �crans, r�duire taille image */
+@media (max-width: 576px) {
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+  }
+}
