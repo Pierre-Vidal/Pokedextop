@@ -1,3 +1,7 @@
+/* =========================================
+   === CSS d'origine (ton CSS de base) ===
+   ========================================= */
+
 /* Carte Pokémon */
 .pokemon-card {
   border-radius: 15px;
@@ -148,3 +152,159 @@
     height: 100px;
   }
 }
+
+/* =========================================
+   === Ajouts / corrections (spécifiques) ===
+   ========================================= */
+
+/* --- conserver ton style mais s'assurer que la mini-thumb utilisée dans le composant
+       (.pokemon-thumb) ait la bonne taille et ne soit pas écrasée par la règle globale img --- */
+
+/* Si tu veux que les miniatures internes utilisent exactement cette taille : */
+.pokemon-card .pokemon-thumb {
+  width: 120px;    /* même taille que .pokemon-card img par défaut */
+  height: 120px;
+  object-fit: contain;
+  margin-top: 8px;
+}
+
+/* pour les cas où on veut un rendu plus compact (ex: petites cartes) */
+.pokemon-card.small .pokemon-thumb {
+  width: 96px;
+  height: 96px;
+}
+
+/* conserver les transitions plus légères sur les listes (évite conflit visuel) */
+.pokemon-card {
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+}
+
+/* bouton toggle position absolute (évite qu'il ne déborde) */
+.pokemon-card .btn-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* style par défaut pour badges si type non reconnu (préserve ton style) */
+.type-badge {
+  display: inline-block;
+}
+
+/* amélioration accessibilité : focus visible pour les éléments cliquables */
+.pokemon-card:focus,
+.pokemon-card .btn-toggle:focus,
+.pokemon-card img:focus {
+  outline: 3px solid rgba(220,10,45,0.15);
+  outline-offset: 2px;
+}
+
+/* =========================================
+   === Styles pour overlay / detail modal ===
+   ========================================= */
+
+/* Overlay / modal detail (ajout sans toucher au reste) */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+  padding: 20px;
+}
+
+/* card inside overlay */
+.detail-card {
+  background: white;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+/* close button */
+.detail-card .close-btn {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  border: none;
+  background: transparent;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 3;
+}
+
+/* deux colonnes : image / info */
+.detail-card .row.g-0 {
+  margin: 0;
+}
+
+/* image large centrée */
+.detail-card .large-img {
+  max-width: 100%;
+  max-height: 320px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+/* zone de contenu */
+.detail-card .p-3 {
+  padding: 1rem;
+}
+
+/* small tweaks: badges dans la modal doivent garder la couleur d'origine */
+.detail-card .type-badge {
+  color: #fff;
+  padding: 6px 10px;
+  margin-right: 6px;
+  border-radius: 14px;
+  font-size: 0.9rem;
+}
+
+/* Responsive : modal full width sur très petits écrans */
+@media (max-width: 576px) {
+  .detail-card {
+    width: 100%;
+    height: auto;
+    max-width: 540px;
+    border-radius: 8px;
+  }
+  .detail-card .large-img {
+    max-height: 180px;
+  }
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+  }
+  .detail-card .p-3 {
+    padding: 0.75rem;
+  }
+}
+
+/* =========================================
+   === Règles utilitaires / corrections mineures
+   ========================================= */
+
+/* Forcer le z-index du bouton toggle au-dessus des images */
+.pokemon-card .btn-toggle {
+  z-index: 20;
+}
+
+/* Si plusieurs définitions existent pour .type-badge (déjà présent dans ton base),
+   celles-ci préserveront les couleurs et ajusteront le padding dans la modal. */
+
+/* Si tu veux que certains types (avec accents) aient des classes alternatives sans accent,
+   tu peux utiliser les deux sélecteurs — je ne modifie pas ta base mais je fournis l'alternative : */
+
+.electrik, .électrik { background-color: #F8D030; color: #000; }
+.fee, .fée { background-color: #EE99AC; }
+
+/* Fin du fichier CSS */
