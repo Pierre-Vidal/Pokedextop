@@ -1873,14 +1873,14 @@
       "pokemonId": 3
     },
     {
-      "id": "bf67",
-      "userId": "6159",
-      "pokemonId": 2
-    },
-    {
       "id": "8cab",
       "userId": "6159",
       "pokemonId": 3
+    },
+    {
+      "id": "6255",
+      "userId": "6159",
+      "pokemonId": 2
     }
   ]
 }
