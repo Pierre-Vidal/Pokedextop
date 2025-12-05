@@ -19,6 +19,21 @@
       "id": "fce4",
       "username": "bonjour",
       "password": "bonjour"
+    },
+    {
+      "id": "deec",
+      "username": "pierrer",
+      "password": "456789"
+    },
+    {
+      "id": "62ce",
+      "username": "pierre2",
+      "password": "123456"
+    },
+    {
+      "id": "6159",
+      "username": "ahmed",
+      "password": "example"
     }
   ],
   "pokemons": [
@@ -31,7 +46,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
       "height": 7,
-      "weight": 69
+      "weight": 69,
+      "description": "Un Pokémon timide qui porte une graine sur le dos : elle pousse à mesure qu’il absorbe la lumière."
     },
     {
       "id": "2",
@@ -42,7 +58,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
       "height": 10,
-      "weight": 130
+      "weight": 130,
+      "description": "La graine sur son dos commence à germer et le rend plus fort ; il aime les endroits ensoleillés."
     },
     {
       "id": "3",
@@ -53,7 +70,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
       "height": 20,
-      "weight": 1000
+      "weight": 1000,
+      "description": "Un gigantesque Pokémon dont la fleur apporte une énergie puissante et diffuse un parfum apaisant."
     },
     {
       "id": "4",
@@ -63,7 +81,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
       "height": 6,
-      "weight": 85
+      "weight": 85,
+      "description": "Petit lézard courageux dont la flamme à la queue indique son énergie et sa santé."
     },
     {
       "id": "5",
@@ -73,7 +92,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
       "height": 11,
-      "weight": 190
+      "weight": 190,
+      "description": "Son souffle enflammé devient plus puissant avec l’âge ; il est agile et téméraire."
     },
     {
       "id": "6",
@@ -84,7 +104,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
       "height": 17,
-      "weight": 905
+      "weight": 905,
+      "description": "Un dragon cracheur de feu capable de voler : impressionnant en combat et très fier."
     },
     {
       "id": "7",
@@ -94,7 +115,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
       "height": 5,
-      "weight": 90
+      "weight": 90,
+      "description": "Petite tortue aquatique qui aime nager et peut tirer de puissants jets d’eau."
     },
     {
       "id": "8",
@@ -104,7 +126,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
       "height": 10,
-      "weight": 225
+      "weight": 225,
+      "description": "Sa carapace se renforce avec l’âge ; excellent défenseur et bon nageur."
     },
     {
       "id": "9",
@@ -114,7 +137,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
       "height": 16,
-      "weight": 855
+      "weight": 855,
+      "description": "Puissant tank aquatique capable de tirer des canons d’eau depuis sa carapace."
     },
     {
       "id": "10",
@@ -124,7 +148,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
       "height": 3,
-      "weight": 29
+      "weight": 29,
+      "description": "Petit insecte vorace qui se nourrit de feuilles et reste souvent immobile pour se camoufler."
     },
     {
       "id": "11",
@@ -134,7 +159,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
       "height": 7,
-      "weight": 99
+      "weight": 99,
+      "description": "Stade de transition immobile qui se protège dans un cocon en attendant d’évoluer."
     },
     {
       "id": "12",
@@ -145,7 +171,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
       "height": 11,
-      "weight": 320
+      "weight": 320,
+      "description": "Un papillon coloré qui charme ses ennemis et utilise des attaques rapides et aériennes."
     },
     {
       "id": "13",
@@ -156,7 +183,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
       "height": 3,
-      "weight": 32
+      "weight": 32,
+      "description": "Petit insecte agressif qui attaque en essaim et possède un dard venimeux."
     },
     {
       "id": "14",
@@ -167,7 +195,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
       "height": 6,
-      "weight": 100
+      "weight": 100,
+      "description": "Enveloppé dans son cocon, il se prépare à une puissante métamorphose."
     },
     {
       "id": "15",
@@ -178,7 +207,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
       "height": 10,
-      "weight": 295
+      "weight": 295,
+      "description": "Abeille rapide et redoutable, experte pour piquer plusieurs fois à grande vitesse."
     },
     {
       "id": "16",
@@ -189,7 +219,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
       "height": 3,
-      "weight": 18
+      "weight": 18,
+      "description": "Petit oiseau commun et agile, présent presque partout dans la nature."
     },
     {
       "id": "17",
@@ -200,7 +231,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
       "height": 11,
-      "weight": 300
+      "weight": 300,
+      "description": "Évolué et plus robuste que Roucool, il vole plus haut et plus vite."
     },
     {
       "id": "18",
@@ -211,7 +243,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
       "height": 15,
-      "weight": 395
+      "weight": 395,
+      "description": "Oiseau impressionnant et puissant, maître des attaques perçantes en piqué."
     },
     {
       "id": "19",
@@ -221,7 +254,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
       "height": 3,
-      "weight": 35
+      "weight": 35,
+      "description": "Rongeur vif et malin, facile à trouver près des habitations."
     },
     {
       "id": "20",
@@ -231,7 +265,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
       "height": 7,
-      "weight": 185
+      "weight": 185,
+      "description": "Rattata évolué : plus agressif, il protège son territoire avec détermination."
     },
     {
       "id": "21",
@@ -242,7 +277,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
       "height": 3,
-      "weight": 20
+      "weight": 20,
+      "description": "Petit passereau curieux qui collecte des insectes et des graines pour se nourrir."
     },
     {
       "id": "22",
@@ -253,7 +289,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
       "height": 12,
-      "weight": 380
+      "weight": 380,
+      "description": "Rapace puissant apprécié pour sa vitesse et ses attaques de précision."
     },
     {
       "id": "23",
@@ -263,7 +300,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
       "height": 20,
-      "weight": 69
+      "weight": 69,
+      "description": "Serpent sournois qui enroule ses proies et peut libérer des toxines paralysantes."
     },
     {
       "id": "24",
@@ -273,7 +311,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
       "height": 35,
-      "weight": 650
+      "weight": 650,
+      "description": "Un grand serpent intimidant dont les motifs sur la tête effraient ses adversaires."
     },
     {
       "id": "25",
@@ -283,7 +322,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
       "height": 4,
-      "weight": 60
+      "weight": 60,
+      "description": "Icône électrique : stocke la foudre dans ses joues et délivre des attaques rapides."
     },
     {
       "id": "26",
@@ -293,7 +333,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
       "height": 8,
-      "weight": 300
+      "weight": 300,
+      "description": "Version plus puissante de Pikachu ; ses décharges électriques sont impressionnantes."
     },
     {
       "id": "27",
@@ -303,7 +344,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
       "height": 6,
-      "weight": 120
+      "weight": 120,
+      "description": "Petit mammifère des sables qui creuse rapidement des terriers pour se protéger."
     },
     {
       "id": "28",
@@ -313,7 +355,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
       "height": 10,
-      "weight": 295
+      "weight": 295,
+      "description": "Évolué et puissant, il fouille le sol à grande vitesse et peut créer des tunnels."
     },
     {
       "id": "29",
@@ -323,7 +366,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
       "height": 4,
-      "weight": 70
+      "weight": 70,
+      "description": "Nidoran femelle prudente avec des pics venimeux pour se défendre."
     },
     {
       "id": "30",
@@ -333,7 +377,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
       "height": 8,
-      "weight": 200
+      "weight": 200,
+      "description": "Plus robuste que Nidoran♀, elle protège les siens et peut infliger des coups venimeux."
     },
     {
       "id": "31",
@@ -344,7 +389,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
       "height": 13,
-      "weight": 600
+      "weight": 600,
+      "description": "Reine puissante aux défenses élevées, maîtrisant attaques physiques et venimeuses."
     },
     {
       "id": "32",
@@ -354,7 +400,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
       "height": 5,
-      "weight": 90
+      "weight": 90,
+      "description": "Nidoran mâle, actif et impulsif, protège son territoire avec ses crocs venimeux."
     },
     {
       "id": "33",
@@ -364,7 +411,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
       "height": 9,
-      "weight": 195
+      "weight": 195,
+      "description": "Tendance à se battre pour s’affirmer ; ses cornes sont redoutables."
     },
     {
       "id": "34",
@@ -375,7 +423,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
       "height": 14,
-      "weight": 620
+      "weight": 620,
+      "description": "Royauté musclée : mélange de puissance physique et d’attaques venimeuses destructrices."
     },
     {
       "id": "35",
@@ -385,7 +434,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
       "height": 6,
-      "weight": 75
+      "weight": 75,
+      "description": "Petit Pokémon adorable lié à la magie de la lune, connu pour sa gentillesse."
     },
     {
       "id": "36",
@@ -395,7 +445,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
       "height": 13,
-      "weight": 400
+      "weight": 400,
+      "description": "Grande créature féerique qui calme les esprits grâce à son chant apaisant."
     },
     {
       "id": "37",
@@ -405,7 +456,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
       "height": 6,
-      "weight": 99
+      "weight": 99,
+      "description": "Renard au pelage flamboyant, il préserve sa queue et manipule de petites flammes."
     },
     {
       "id": "38",
@@ -415,7 +467,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
       "height": 11,
-      "weight": 199
+      "weight": 199,
+      "description": "Élégant renard mystique dont les neuf queues renferment une grande puissance de feu."
     },
     {
       "id": "39",
@@ -426,7 +479,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
       "height": 5,
-      "weight": 55
+      "weight": 55,
+      "description": "Douce boule rose qui endort ses ennemis grâce à ses chansons et son chant apaisant."
     },
     {
       "id": "40",
@@ -437,7 +491,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
       "height": 10,
-      "weight": 120
+      "weight": 120,
+      "description": "Version évoluée plus robuste, capable d’utiliser des attaques soniques puissantes."
     },
     {
       "id": "41",
@@ -448,7 +503,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
       "height": 8,
-      "weight": 75
+      "weight": 75,
+      "description": "Chauve-souris venimeuse qui vole la nuit et aime les grottes sombres."
     },
     {
       "id": "42",
@@ -459,7 +515,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
       "height": 16,
-      "weight": 550
+      "weight": 550,
+      "description": "Chauve-souris géante et redoutable, rapide en vol et dangereuse en meute."
     },
     {
       "id": "43",
@@ -470,7 +527,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
       "height": 5,
-      "weight": 54
+      "weight": 54,
+      "description": "Plante piquante qui se cache dans les hautes herbes et peut envenimer ses proies."
     },
     {
       "id": "44",
@@ -481,7 +539,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
       "height": 8,
-      "weight": 86
+      "weight": 86,
+      "description": "Plante bipède qui attire ses ennemis avec son parfum puis les attaque avec des lianes."
     },
     {
       "id": "45",
@@ -492,7 +551,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
       "height": 12,
-      "weight": 186
+      "weight": 186,
+      "description": "Grande fleur carnivore qui dégage une odeur forte pour attirer les proies."
     },
     {
       "id": "46",
@@ -503,7 +563,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
       "height": 3,
-      "weight": 54
+      "weight": 54,
+      "description": "Petit insecte symbiotique avec des champignons qui poussent sur son dos."
     },
     {
       "id": "47",
@@ -514,7 +575,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
       "height": 10,
-      "weight": 295
+      "weight": 295,
+      "description": "Contrôlé par le champignon sur son dos, il utilise des spores puissantes."
     },
     {
       "id": "48",
@@ -525,7 +587,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
       "height": 10,
-      "weight": 305
+      "weight": 305,
+      "description": "Insecte volant souvent trouvé en nuées, il attaque avec des pouvoirs toxiques."
     },
     {
       "id": "49",
@@ -536,7 +599,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
       "height": 15,
-      "weight": 125
+      "weight": 125,
+      "description": "Papillon nocturne qui utilise des spores et des attaques aériennes furtives."
     },
     {
       "id": "50",
@@ -546,7 +610,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
       "height": 2,
-      "weight": 8
+      "weight": 8,
+      "description": "Petit fouisseur qui creuse rapidement et surprend ses ennemis depuis le sol."
     },
     {
       "id": "51",
@@ -556,7 +621,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
       "height": 7,
-      "weight": 333
+      "weight": 333,
+      "description": "Évolué robuste de Taupiqueur, habile pour creuser des tunnels complexes."
     },
     {
       "id": "52",
@@ -566,7 +632,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
       "height": 4,
-      "weight": 42
+      "weight": 42,
+      "description": "Chat malin attiré par les objets brillants, il se sert souvent de ses griffes."
     },
     {
       "id": "53",
@@ -576,7 +643,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
       "height": 10,
-      "weight": 320
+      "weight": 320,
+      "description": "Félin élégant et fier, très rapide et capable d’attaques précises."
     },
     {
       "id": "54",
@@ -586,7 +654,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
       "height": 8,
-      "weight": 196
+      "weight": 196,
+      "description": "Canard toujours confus qui souffre de maux de tête, mais dont le pouvoir psy peut surgir."
     },
     {
       "id": "55",
@@ -596,7 +665,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
       "height": 17,
-      "weight": 766
+      "weight": 766,
+      "description": "Puissant et émotionnel, il utilise des attaques aquatiques et parfois surprenantes."
     },
     {
       "id": "56",
@@ -606,7 +676,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
       "height": 5,
-      "weight": 280
+      "weight": 280,
+      "description": "Singe bagarreur et hyperactif, maître de coups rapides et puissants."
     },
     {
       "id": "57",
@@ -616,7 +687,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
       "height": 10,
-      "weight": 320
+      "weight": 320,
+      "description": "Singe plus grand et féroce, spécialisé dans des attaques physiques brutales."
     },
     {
       "id": "58",
@@ -626,7 +698,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
       "height": 7,
-      "weight": 190
+      "weight": 190,
+      "description": "Jeune chien de feu loyal, dont la fourrure crépite légèrement en permanence."
     },
     {
       "id": "59",
@@ -636,7 +709,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
       "height": 19,
-      "weight": 1550
+      "weight": 1550,
+      "description": "Grand chien majestueux et rapide, symbole de bravoure et de loyauté."
     },
     {
       "id": "60",
@@ -646,7 +720,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
       "height": 6,
-      "weight": 124
+      "weight": 124,
+      "description": "Têtard joueur qui vit près des étangs et apprend des attaques aquatiques."
     },
     {
       "id": "61",
@@ -656,7 +731,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
       "height": 10,
-      "weight": 200
+      "weight": 200,
+      "description": "Grenouille aquatique agile, capable d’attaques sautées et d’ondes aquatiques."
     },
     {
       "id": "62",
@@ -667,7 +743,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
       "height": 13,
-      "weight": 540
+      "weight": 540,
+      "description": "Puissant bipède aquatique, fort tant en techniques physiques qu’en attaques d’eau."
     },
     {
       "id": "63",
@@ -677,7 +754,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
       "height": 9,
-      "weight": 195
+      "weight": 195,
+      "description": "Dormeur télépathe : se téléporte pour fuir le danger et utilise des pouvoirs mentaux."
     },
     {
       "id": "64",
@@ -687,7 +765,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
       "height": 13,
-      "weight": 565
+      "weight": 565,
+      "description": "Sa puissance psychique augmente ; il manie la télékinésie avec un bâton mystérieux."
     },
     {
       "id": "65",
@@ -697,7 +776,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
       "height": 15,
-      "weight": 480
+      "weight": 480,
+      "description": "Génie télépathique au QI élevé, capable de prouesses mentales incroyables."
     },
     {
       "id": "66",
@@ -707,7 +787,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
       "height": 8,
-      "weight": 195
+      "weight": 195,
+      "description": "Apprenti combattant robuste, il s’entraîne constamment pour gagner en force."
     },
     {
       "id": "67",
@@ -717,7 +798,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
       "height": 15,
-      "weight": 705
+      "weight": 705,
+      "description": "Puissant combattant avec une grande force brute et une endurance élevée."
     },
     {
       "id": "68",
@@ -727,7 +809,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
       "height": 16,
-      "weight": 1300
+      "weight": 1300,
+      "description": "Maître du combat au corps à corps, capable de renverser des adversaires plus grands."
     },
     {
       "id": "69",
@@ -738,7 +821,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
       "height": 7,
-      "weight": 40
+      "weight": 40,
+      "description": "Jeune plante qui se cache dans les herbes et utilise des poisons discrets."
     },
     {
       "id": "70",
@@ -749,7 +833,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
       "height": 10,
-      "weight": 64
+      "weight": 64,
+      "description": "Plante bipède qui mord vigoureusement et utilise des attaques toxiques."
     },
     {
       "id": "71",
@@ -760,7 +845,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
       "height": 17,
-      "weight": 155
+      "weight": 155,
+      "description": "Grande fleur vorace qui aspire ses proies et répand un poison puissant."
     },
     {
       "id": "72",
@@ -771,7 +857,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
       "height": 9,
-      "weight": 455
+      "weight": 455,
+      "description": "Créature marine munie de tentacules urticants qui vit près des côtes."
     },
     {
       "id": "73",
@@ -782,7 +869,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
       "height": 16,
-      "weight": 550
+      "weight": 550,
+      "description": "Tentacules massifs et poison puissant : un prédateur redouté des océans."
     },
     {
       "id": "74",
@@ -793,7 +881,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
       "height": 4,
-      "weight": 200
+      "weight": 200,
+      "description": "Petit rocher ambulant; robuste et souvent trouvé dans les montagnes."
     },
     {
       "id": "75",
@@ -804,7 +893,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
       "height": 10,
-      "weight": 1050
+      "weight": 1050,
+      "description": "Massif et lourd, il avance lentement mais écrase tout sur son passage."
     },
     {
       "id": "76",
@@ -815,7 +905,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
       "height": 14,
-      "weight": 3000
+      "weight": 3000,
+      "description": "Géant rocheux doté d’une défense exceptionnelle, parfait pour encaisser les coups."
     },
     {
       "id": "77",
@@ -825,7 +916,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
       "height": 10,
-      "weight": 300
+      "weight": 300,
+      "description": "Cheval rapide aux sabots enflammés qui galope sans effort à toute vitesse."
     },
     {
       "id": "78",
@@ -835,7 +927,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
       "height": 17,
-      "weight": 950
+      "weight": 950,
+      "description": "Cheval de feu majestueux, symbole de vitesse et de puissance."
     },
     {
       "id": "79",
@@ -846,7 +939,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
       "height": 12,
-      "weight": 360
+      "weight": 360,
+      "description": "Pokemon lent et rêveur, souvent perdu dans ses pensées aquatiques."
     },
     {
       "id": "80",
@@ -857,7 +951,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
       "height": 16,
-      "weight": 785
+      "weight": 785,
+      "description": "Évolution ampoulée de Ramoloss, dont la puissance mentale est surprenante."
     },
     {
       "id": "81",
@@ -868,7 +963,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
       "height": 3,
-      "weight": 60
+      "weight": 60,
+      "description": "Petit Pokémon magnétique qui se rassemble en essaims pour créer un champ fort."
     },
     {
       "id": "82",
@@ -879,7 +975,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
       "height": 10,
-      "weight": 600
+      "weight": 600,
+      "description": "Fusion magnétique de magnétis : produit d’énormes décharges électromagnétiques."
     },
     {
       "id": "83",
@@ -890,7 +987,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
       "height": 8,
-      "weight": 150
+      "weight": 150,
+      "description": "Canard robuste apprécié pour sa nage et ses attaques en piqué."
     },
     {
       "id": "84",
@@ -901,7 +999,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
       "height": 14,
-      "weight": 392
+      "weight": 392,
+      "description": "Oiseau à deux têtes, rapide en course et difficile à surprendre."
     },
     {
       "id": "85",
@@ -912,7 +1011,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
       "height": 18,
-      "weight": 852
+      "weight": 852,
+      "description": "Trois têtes qui coordonnent leurs attaques : redoutable en vitesse et en puissance."
     },
     {
       "id": "86",
@@ -922,7 +1022,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
       "height": 11,
-      "weight": 900
+      "weight": 900,
+      "description": "Phoque marin puissant, agile dans l’eau et capable d’attaques massives."
     },
     {
       "id": "87",
@@ -933,7 +1034,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
       "height": 17,
-      "weight": 1206
+      "weight": 1206,
+      "description": "Créature marine douce mais massive, adaptée aux eaux froides."
     },
     {
       "id": "88",
@@ -943,7 +1045,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
       "height": 9,
-      "weight": 300
+      "weight": 300,
+      "description": "Masse de boue toxique qui se propage dans les zones polluées."
     },
     {
       "id": "89",
@@ -953,7 +1056,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
       "height": 12,
-      "weight": 300
+      "weight": 300,
+      "description": "Marge plus grande de Tadmorv, il est encore plus résistant aux poisons."
     },
     {
       "id": "90",
@@ -963,7 +1067,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
       "height": 3,
-      "weight": 40
+      "weight": 40,
+      "description": "Petit crustacé qui cache une coquille solide pour se protéger."
     },
     {
       "id": "91",
@@ -974,7 +1079,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
       "height": 15,
-      "weight": 1325
+      "weight": 1325,
+      "description": "Grand crustacé doté d’une puissante carapace et d’attaques tranchantes."
     },
     {
       "id": "92",
@@ -985,7 +1091,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
       "height": 13,
-      "weight": 1
+      "weight": 1,
+      "description": "Esprit mystérieux qui hante les lieux sombres et utilise des attaques empoisonnées."
     },
     {
       "id": "93",
@@ -996,7 +1103,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
       "height": 16,
-      "weight": 1
+      "weight": 1,
+      "description": "Forme plus intense de Fantominus, très fuyante et dangereuse."
     },
     {
       "id": "94",
@@ -1007,7 +1115,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
       "height": 15,
-      "weight": 405
+      "weight": 405,
+      "description": "Puissant spectre qui manipule les esprits et crée des illusions terrifiantes."
     },
     {
       "id": "95",
@@ -1018,7 +1127,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
       "height": 88,
-      "weight": 2100
+      "weight": 2100,
+      "description": "Immense serpent de pierre qui creuse des tunnels et écrase ses adversaires."
     },
     {
       "id": "96",
@@ -1028,7 +1138,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
       "height": 10,
-      "weight": 324
+      "weight": 324,
+      "description": "Pokémon endormi aux pouvoirs hypnotiques qui endort ses ennemis."
     },
     {
       "id": "97",
@@ -1038,7 +1149,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
       "height": 16,
-      "weight": 756
+      "weight": 756,
+      "description": "Maître du sommeil : utilise un pendule pour plonger ses cibles dans un profond sommeil."
     },
     {
       "id": "98",
@@ -1048,7 +1160,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
       "height": 4,
-      "weight": 65
+      "weight": 65,
+      "description": "Crabe vif avec une pince puissante pour saisir sa nourriture et ses ennemis."
     },
     {
       "id": "99",
@@ -1058,7 +1171,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
       "height": 13,
-      "weight": 600
+      "weight": 600,
+      "description": "Krabby évolué, doté de pinces énormes et d’une grande présence en combat."
     },
     {
       "id": "100",
@@ -1068,7 +1182,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
       "height": 5,
-      "weight": 104
+      "weight": 104,
+      "description": "Orbe électrique qui ressemble à une bombe ; il explose quand il est surpris."
     },
     {
       "id": "101",
@@ -1078,7 +1193,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
       "height": 12,
-      "weight": 666
+      "weight": 666,
+      "description": "Version plus dangereuse de Voltorbe, enclenchant de puissantes explosions électriques."
     },
     {
       "id": "102",
@@ -1089,7 +1205,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
       "height": 4,
-      "weight": 25
+      "weight": 25,
+      "description": "Petit Pokémon en forme d’œuf doté de pouvoirs psychiques embryonnaires."
     },
     {
       "id": "103",
@@ -1100,7 +1217,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
       "height": 20,
-      "weight": 1200
+      "weight": 1200,
+      "description": "Grand palmier vivant dont la tête regorge de fruits et de pouvoirs psy."
     },
     {
       "id": "104",
@@ -1110,7 +1228,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
       "height": 4,
-      "weight": 65
+      "weight": 65,
+      "description": "Petit os vivant, souvent utilisé comme jouet ou arme par d’autres Pokémon."
     },
     {
       "id": "105",
@@ -1120,7 +1239,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
       "height": 10,
-      "weight": 450
+      "weight": 450,
+      "description": "Osaille évolué, maître du combat avec des os solides et tranchants."
     },
     {
       "id": "106",
@@ -1130,7 +1250,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
       "height": 15,
-      "weight": 498
+      "weight": 498,
+      "description": "Spécialiste des coups de pied : rapide, souple et imprévisible en combat."
     },
     {
       "id": "107",
@@ -1140,7 +1261,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
       "height": 14,
-      "weight": 502
+      "weight": 502,
+      "description": "Boxeur expert, il utilise des techniques puissantes et précises au corps à corps."
     },
     {
       "id": "108",
@@ -1150,7 +1272,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
       "height": 12,
-      "weight": 655
+      "weight": 655,
+      "description": "Langue géante et collante qu’il utilise pour attraper objets et adversaires."
     },
     {
       "id": "109",
@@ -1160,7 +1283,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
       "height": 6,
-      "weight": 10
+      "weight": 10,
+      "description": "Bouffée toxique ambulante qui pollue l’air et affaiblit ses ennemis."
     },
     {
       "id": "110",
@@ -1170,7 +1294,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
       "height": 12,
-      "weight": 95
+      "weight": 95,
+      "description": "Grande version toxique, il relâche des nuées de gaz nocifs et persistants."
     },
     {
       "id": "111",
@@ -1181,7 +1306,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
       "height": 10,
-      "weight": 1150
+      "weight": 1150,
+      "description": "Massif et doté d’une corne robuste, il charge pour briser les obstacles."
     },
     {
       "id": "112",
@@ -1192,7 +1318,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
       "height": 19,
-      "weight": 1200
+      "weight": 1200,
+      "description": "Puissant rhinocéros de pierre capable d’infliger d’énormes dégâts physiques."
     },
     {
       "id": "113",
@@ -1202,7 +1329,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
       "height": 11,
-      "weight": 346
+      "weight": 346,
+      "description": "Bienveillant et rare, il porte souvent un œuf et symbolise la chance."
     },
     {
       "id": "114",
@@ -1212,7 +1340,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
       "height": 10,
-      "weight": 350
+      "weight": 350,
+      "description": "Grand sac de graines qui libère des spores et des nutriments pour la végétation."
     },
     {
       "id": "115",
@@ -1222,7 +1351,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
       "height": 22,
-      "weight": 800
+      "weight": 800,
+      "description": "Mère protectrice avec une poche, elle est forte et rapide pour protéger son petit."
     },
     {
       "id": "116",
@@ -1232,7 +1362,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
       "height": 4,
-      "weight": 80
+      "weight": 80,
+      "description": "Poisson gracieux qui nage en bancs et esquive habilement les prédateurs."
     },
     {
       "id": "117",
@@ -1242,7 +1373,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
       "height": 12,
-      "weight": 250
+      "weight": 250,
+      "description": "Plus grand et résistant, il règne sur certaines zones côtières."
     },
     {
       "id": "118",
@@ -1252,7 +1384,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
       "height": 6,
-      "weight": 150
+      "weight": 150,
+      "description": "Poisson lumineux souvent pêché pour sa beauté et ses mouvements gracieux."
     },
     {
       "id": "119",
@@ -1262,7 +1395,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
       "height": 13,
-      "weight": 390
+      "weight": 390,
+      "description": "Poisson roi puissant avec une nage énergique et un fort caractère."
     },
     {
       "id": "120",
@@ -1272,7 +1406,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
       "height": 8,
-      "weight": 345
+      "weight": 345,
+      "description": "Étoile de mer qui aime les récifs et émet parfois une légère lueur."
     },
     {
       "id": "121",
@@ -1283,7 +1418,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
       "height": 11,
-      "weight": 800
+      "weight": 800,
+      "description": "Évolution mystérieuse de Stari, capable de puissants pouvoirs psychiques."
     },
     {
       "id": "122",
@@ -1294,7 +1430,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
       "height": 13,
-      "weight": 545
+      "weight": 545,
+      "description": "Pokémon mime excentrique qui crée des barrières invisibles et des illusions."
     },
     {
       "id": "123",
@@ -1305,7 +1442,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
       "height": 15,
-      "weight": 560
+      "weight": 560,
+      "description": "Insecte redoutable aux grandes pinces tranchantes et un vol puissant."
     },
     {
       "id": "124",
@@ -1316,7 +1454,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
       "height": 14,
-      "weight": 406
+      "weight": 406,
+      "description": "Créature élégante combinant froid et pouvoirs psychiques pour combattre."
     },
     {
       "id": "125",
@@ -1326,7 +1465,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
       "height": 11,
-      "weight": 300
+      "weight": 300,
+      "description": "Robot électrique qui génère de fortes décharges et est souvent trouvé près d’usines."
     },
     {
       "id": "126",
@@ -1336,7 +1476,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
       "height": 13,
-      "weight": 445
+      "weight": 445,
+      "description": "Créature de lave ardente, son corps dégage une chaleur intense."
     },
     {
       "id": "127",
@@ -1346,7 +1487,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
       "height": 15,
-      "weight": 550
+      "weight": 550,
+      "description": "Colosse insecte avec une force surprenante, parfait pour pousser et soulever."
     },
     {
       "id": "128",
@@ -1356,7 +1498,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
       "height": 14,
-      "weight": 884
+      "weight": 884,
+      "description": "Taureau sauvage et furieux, connu pour charger sans hésitation."
     },
     {
       "id": "129",
@@ -1366,7 +1509,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
       "height": 9,
-      "weight": 100
+      "weight": 100,
+      "description": "Poisson faible mais tenace, célèbre pour son incapacité au combat puis sa puissante évolution."
     },
     {
       "id": "130",
@@ -1377,7 +1521,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
       "height": 65,
-      "weight": 2350
+      "weight": 2350,
+      "description": "Monstre marin colossal ; sa rage déchaîne des destructions massives."
     },
     {
       "id": "131",
@@ -1388,7 +1533,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
       "height": 25,
-      "weight": 2200
+      "weight": 2200,
+      "description": "Créature douce et puissante, utilisée souvent comme monture aquatique."
     },
     {
       "id": "132",
@@ -1398,7 +1544,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
       "height": 3,
-      "weight": 40
+      "weight": 40,
+      "description": "Forme malleable qui imite l’apparence d’autres Pokémon pour se camoufler."
     },
     {
       "id": "133",
@@ -1408,7 +1555,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
       "height": 3,
-      "weight": 65
+      "weight": 65,
+      "description": "Pokémon versatile pouvant évoluer en plusieurs formes selon son environnement."
     },
     {
       "id": "134",
@@ -1418,7 +1566,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
       "height": 10,
-      "weight": 290
+      "weight": 290,
+      "description": "Évolution d’Évoli spécialisée en eau, appréciée pour sa grâce aquatique."
     },
     {
       "id": "135",
@@ -1428,7 +1577,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
       "height": 8,
-      "weight": 245
+      "weight": 245,
+      "description": "Évolution d’Évoli électrisante, réactive et pleine d’énergie."
     },
     {
       "id": "136",
@@ -1438,7 +1588,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
       "height": 9,
-      "weight": 250
+      "weight": 250,
+      "description": "Évolution de feu d’Évoli; ardent et passionné, il chauffe ses ennemis."
     },
     {
       "id": "137",
@@ -1448,7 +1599,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
       "height": 8,
-      "weight": 365
+      "weight": 365,
+      "description": "Création numérique étrange capable d’entrer dans les systèmes informatiques."
     },
     {
       "id": "138",
@@ -1459,7 +1611,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
       "height": 4,
-      "weight": 75
+      "weight": 75,
+      "description": "Ancêtre marin à coquille, retrouvé fossile dans des couches rocheuses."
     },
     {
       "id": "139",
@@ -1470,7 +1623,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
       "height": 10,
-      "weight": 350
+      "weight": 350,
+      "description": "Prédateur fossile avec de puissantes pinces et une coquille solide."
     },
     {
       "id": "140",
@@ -1481,7 +1635,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
       "height": 5,
-      "weight": 115
+      "weight": 115,
+      "description": "Autre fossile marin, il se camoufle sous le sable et attaque en embuscade."
     },
     {
       "id": "141",
@@ -1492,7 +1647,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
       "height": 13,
-      "weight": 405
+      "weight": 405,
+      "description": "Fossile évolué, rapide et tranchant, manie ses lames comme des armes."
     },
     {
       "id": "142",
@@ -1503,7 +1659,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
       "height": 18,
-      "weight": 590
+      "weight": 590,
+      "description": "Gros reptile volant préhistorique, redoutable en attaque aérienne."
     },
     {
       "id": "143",
@@ -1513,7 +1670,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
       "height": 21,
-      "weight": 4600
+      "weight": 4600,
+      "description": "Immense et paresseux, il dort des heures et bloque souvent chemins et routes."
     },
     {
       "id": "144",
@@ -1524,7 +1682,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
       "height": 17,
-      "weight": 554
+      "weight": 554,
+      "description": "Légendaire oiseau de glace dont les ailes apportent blizzard et froid extrême."
     },
     {
       "id": "145",
@@ -1535,7 +1694,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
       "height": 16,
-      "weight": 526
+      "weight": 526,
+      "description": "Oiseau légendaire qui contrôle les tempêtes électriques et foudroie ses proies."
     },
     {
       "id": "146",
@@ -1546,7 +1706,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
       "height": 20,
-      "weight": 600
+      "weight": 600,
+      "description": "Oiseau mythique de feu, il incendie tout sur son passage et est très rare."
     },
     {
       "id": "147",
@@ -1556,7 +1717,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
       "height": 18,
-      "weight": 33
+      "weight": 33,
+      "description": "Petit dragon élégant, très agile et plein de potentiel évolutif."
     },
     {
       "id": "148",
@@ -1566,7 +1728,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
       "height": 40,
-      "weight": 165
+      "weight": 165,
+      "description": "Dragon intermédiaire, plus puissant et capable de terribles attaques."
     },
     {
       "id": "149",
@@ -1577,7 +1740,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
       "height": 22,
-      "weight": 2100
+      "weight": 2100,
+      "description": "Dragon légendaire robuste et majestueux, mélange de puissance et de grâce."
     },
     {
       "id": "150",
@@ -1587,7 +1751,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
       "height": 20,
-      "weight": 1220
+      "weight": 1220,
+      "description": "Création génétique extrêmement puissante, dotée d’un esprit brillant et dangereux."
     },
     {
       "id": "151",
@@ -1597,7 +1762,8 @@
       ],
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
       "height": 4,
-      "weight": 40
+      "weight": 40,
+      "description": "Pokémon rare et mystérieux, source légendaire de l’ADN de nombreuses espèces."
     }
   ],
   "userPokemons": [
@@ -1622,21 +1788,6 @@
       "pokemonId": 7
     },
     {
-      "id": "f4ff",
-      "userId": 1,
-      "pokemonId": 18
-    },
-    {
-      "id": "13f0",
-      "userId": 1,
-      "pokemonId": 42
-    },
-    {
-      "id": "b4b4",
-      "userId": 1,
-      "pokemonId": 41
-    },
-    {
       "id": "7ecc",
       "userId": 1,
       "pokemonId": 17
@@ -1659,6 +1810,76 @@
     {
       "id": "fa47",
       "userId": "fce4",
+      "pokemonId": 3
+    },
+    {
+      "id": "c332",
+      "userId": "1",
+      "pokemonId": 6
+    },
+    {
+      "id": "0494",
+      "userId": "1",
+      "pokemonId": 44
+    },
+    {
+      "id": "c3dc",
+      "userId": "1",
+      "pokemonId": 1
+    },
+    {
+      "id": "40a3",
+      "userId": "1",
+      "pokemonId": 2
+    },
+    {
+      "id": "36a2",
+      "userId": "1",
+      "pokemonId": 4
+    },
+    {
+      "id": "6e31",
+      "userId": "1",
+      "pokemonId": 5
+    },
+    {
+      "id": "38d4",
+      "userId": "deec",
+      "pokemonId": 1
+    },
+    {
+      "id": "5d59",
+      "userId": "deec",
+      "pokemonId": 2
+    },
+    {
+      "id": "066d",
+      "userId": "deec",
+      "pokemonId": 3
+    },
+    {
+      "id": "eaa1",
+      "userId": "deec",
+      "pokemonId": 33
+    },
+    {
+      "id": "d831",
+      "userId": "deec",
+      "pokemonId": 32
+    },
+    {
+      "id": "7f00",
+      "userId": "1",
+      "pokemonId": 3
+    },
+    {
+      "id": "bf67",
+      "userId": "6159",
+      "pokemonId": 2
+    },
+    {
+      "id": "8cab",
+      "userId": "6159",
       "pokemonId": 3
     }
   ]

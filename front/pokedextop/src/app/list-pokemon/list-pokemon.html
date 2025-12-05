@@ -27,7 +27,8 @@
 
   <div class="row">
     <div class="col-md-4 mb-4" *ngFor="let pokemon of pokemons">
-      <div class="card pokemon-card text-center p-2 position-relative">
+      <div class="card pokemon-card text-center p-2 position-relative"
+           (click)="openDetail(pokemon)">
         <button
           class="btn-toggle position-absolute"
           [class.active]="hasPokemon(+pokemon.id)"
@@ -37,7 +38,13 @@
           <span *ngIf="!hasPokemon(+pokemon.id)">+</span>
           <span *ngIf="hasPokemon(+pokemon.id)">✓</span>
         </button>
-        <img [src]="pokemon.image" class="card-img-top mx-auto" alt="{{pokemon.name}}">
+
+        <!-- clic sur l'image ouvre détail -->
+        <img [src]="pokemon.image"
+             class="card-img-top mx-auto pokemon-thumb"
+             alt="{{pokemon.name}}"
+             (click)="openDetail(pokemon, $event)">
+
         <div class="card-body">
           <h5 class="card-title">{{pokemon.name}}</h5>
           <p class="card-text">Height: {{pokemon.height}} | Weight: {{pokemon.weight}}</p>
@@ -49,6 +56,7 @@
     </div>
   </div>
 
+  <!-- Pagination -->
   <nav aria-label="Page navigation example">
     <ul class="pagination justify-content-center">
       <li class="page-item" [class.disabled]="currentPage === 1">
@@ -68,4 +76,27 @@
       </li>
     </ul>
   </nav>
+</div>
+
+<!-- Overlay / détail -->
+<div class="overlay" *ngIf="selectedPokemon" (click)="closeDetail()">
+  <div class="detail-card" (click)="$event.stopPropagation()">
+    <button class="close-btn" (click)="closeDetail()" title="Fermer">×</button>
+    <div class="row g-0">
+      <div class="col-md-5 d-flex align-items-center justify-content-center p-3">
+        <img [src]="selectedPokemon.image" alt="{{selectedPokemon.name}}" class="img-fluid large-img">
+      </div>
+      <div class="col-md-7 p-3">
+        <h2>{{selectedPokemon.name}}</h2>
+        <div class="mb-2">
+          <span *ngFor="let t of selectedPokemon.type" class="type-badge {{t.toLowerCase()}}">{{t}}</span>
+        </div>
+        <p><strong>Taille :</strong> {{selectedPokemon.height}} dm</p>
+        <p><strong>Poids :</strong> {{selectedPokemon.weight}} hg</p>
+        <hr>
+        <p *ngIf="selectedPokemon.description; else noDesc">{{selectedPokemon.description}}</p>
+        <ng-template #noDesc><p class="text-muted">Aucun descriptif disponible.</p></ng-template>
+      </div>
+    </div>
+  </div>
 </div>
