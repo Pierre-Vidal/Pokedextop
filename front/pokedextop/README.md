@@ -1,59 +1,137 @@
-# Pokedextop
+# 🔴 Pokedextop
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
+**Pokedextop** est une application web moderne pour collectionner et organiser vos Pokémons préférés. Créez votre compte, explorez le catalogue complet et constituez votre propre Pokédex !
 
-## Development server
+---
 
-To start a local development server, run:
+## 📋 À propos
 
+Pokedextop vous permet de :
+- 👤 Créer votre compte personnel
+- 🔍 Explorer un catalogue de 151 Pokémons de première génération
+- ➕ Ajouter des Pokémons à votre collection
+- 📚 Consulter votre Pokédex personnel
+- 🔎 Rechercher par nom ou type de Pokémon
+
+Chaque utilisateur dispose de sa propre collection indépendante. Vos données sont sécurisées et isolées !
+
+---
+
+## 🚀 Installation et Lancement
+
+### Prérequis
+- Node.js (v18+)
+- npm
+
+### Backend (JSON Server)
 ```bash
+cd back
+npm install
+npm start
+```
+Le serveur API démarre sur **http://localhost:3000**
+
+### Frontend (Angular)
+```bash
+cd front/pokedextop
+npm install
 ng serve
 ```
+L'application web démarre sur **http://localhost:4200**
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 📖 Guide d'utilisation
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### 1️⃣ Accéder à l'application
+Ouvrez votre navigateur et allez sur **http://localhost:4200**
 
-```bash
-ng generate component component-name
-```
+### 2️⃣ Créer un compte ou se connecter
+- Cliquez sur **"S'inscrire"** pour créer un nouveau compte
+- Ou utilisez un compte de test (voir ci-dessous)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### 3️⃣ Explorer le catalogue
+- Allez à la page **"Pokémon"** pour voir tous les Pokémons disponibles
+- Chaque carte affiche le nom, l'image, la taille, le poids et les types
 
-```bash
-ng generate --help
-```
+### 4️⃣ Ajouter à ma collection
+- Cliquez sur le bouton **"+"** sur une carte pour l'ajouter à votre collection
 
-## Building
+### 5️⃣ Gérer ma collection
+- Allez à **"Ma Collection"** pour voir vos Pokémons collectés
+- Utilisez le bouton **"✕"** pour retirer un Pokémon
+- Recherchez par nom ou type avec la barre de recherche
 
-To build the project run:
+### 6️⃣ Se déconnecter
+- Cliquez sur le bouton **"Déconnexion"** pour quitter
+
+---
+
+## 🎮 Comptes de test
+
+Vous pouvez tester l'application avec ces comptes :
+
+| Username | Mot de passe |
+|----------|-------------|
+| admin    | admin123    |
+| user     | user123     |
+| pablo    | pablo123    |
+
+---
+
+## 🛠️ Build pour la production
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Les fichiers optimisés seront générés dans le dossier `dist/`.
 
-## Running unit tests
+---
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 📁 Structure du projet
 
-```bash
-ng test
+```
+Pokedextop/
+├── back/                 # Backend (JSON Server)
+│   └── db.json          # Base de données
+├── front/pokedextop/    # Frontend (Angular)
+│   ├── src/
+│   │   └── app/
+│   │       ├── auth.ts                  # Service d'authentification
+│   │       ├── pokemon-service.ts       # Service des Pokémons
+│   │       ├── user-pokemon.service.ts  # Service de collection
+│   │       ├── pokedex/                 # Page Ma Collection
+│   │       ├── pokemon/                 # Page Catalogue
+│   │       └── login/                   # Page Connexion
+│   └── package.json
+└── README.md
 ```
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 🔐 Sécurité
 
-```bash
-ng e2e
-```
+- Chaque utilisateur ne peut voir et modifier que sa propre collection
+- Les données sont stockées de manière isolée par utilisateur
+- Authentification par token JWT
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 💡 Technologies utilisées
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Frontend** : Angular 21, TypeScript, Bootstrap 5
+- **Backend** : JSON Server (REST API)
+- **Database** : JSON (db.json)
+
+---
+
+## ❓ Besoin d'aide ?
+
+Consultez la documentation officielle :
+- [Angular CLI](https://angular.dev/tools/cli)
+- [JSON Server](https://github.com/typicode/json-server)
+
+---
+
+**Amusez-vous bien avec votre collection Pokémon ! 🎮**
