@@ -4464,6 +4464,1236 @@
       "height": 17,
       "weight": 608,
       "description": "ADN extraterrestre muté par rayon laser. Peut changer de forme."
+    },
+    {
+      "id": "387",
+      "name": "Tortipouss",
+      "type": [
+        "Plante"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
+      "height": 4,
+      "weight": 102,
+      "description": "Fait de la photosynthèse sur tout son corps. Sa carapace est faite de terre durcie."
+    },
+    {
+      "id": "388",
+      "name": "Boskara",
+      "type": [
+        "Plante"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png",
+      "height": 11,
+      "weight": 970,
+      "description": "Il vit près de l'eau pure. Il transporte toujours des Pokémon plus petits sur son dos."
+    },
+    {
+      "id": "389",
+      "name": "Torterra",
+      "type": [
+        "Plante",
+        "Sol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
+      "height": 22,
+      "weight": 3100,
+      "description": "Des petits Pokémon construisent leurs nids sur son dos. Il bouge rarement."
+    },
+    {
+      "id": "390",
+      "name": "Ouisticram",
+      "type": [
+        "Feu"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
+      "height": 5,
+      "weight": 62,
+      "description": "Sa queue de feu ne s'éteint jamais. Il grimpe sur les falaises avec agilité."
+    },
+    {
+      "id": "391",
+      "name": "Chimpenfeu",
+      "type": [
+        "Feu",
+        "Combat"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png",
+      "height": 9,
+      "weight": 220,
+      "description": "Il contrôle habilement sa queue de feu. Il vit dans les falaises escarpées."
+    },
+    {
+      "id": "392",
+      "name": "Simiabraz",
+      "type": [
+        "Feu",
+        "Combat"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
+      "height": 12,
+      "weight": 550,
+      "description": "Ses flammes s'intensifient quand il est en colère. Il utilise un style de combat unique."
+    },
+    {
+      "id": "393",
+      "name": "Tiplouf",
+      "type": [
+        "Eau"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
+      "height": 4,
+      "weight": 52,
+      "description": "Fier et pas très doué pour marcher. Il vit au bord de l'eau et plonge pour chasser."
+    },
+    {
+      "id": "394",
+      "name": "Prinplouf",
+      "type": [
+        "Eau"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png",
+      "height": 8,
+      "weight": 230,
+      "description": "Il nage plus vite que le champion olympique. Il est très fier et solitaire."
+    },
+    {
+      "id": "395",
+      "name": "Pingoléon",
+      "type": [
+        "Eau",
+        "Acier"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
+      "height": 17,
+      "weight": 845,
+      "description": "Il possède d'énormes ailerons. Un leader né qui protège son groupe avec fierté."
+    },
+    {
+      "id": "396",
+      "name": "Étourmi",
+      "type": [
+        "Normal",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
+      "height": 3,
+      "weight": 20,
+      "description": "On en voit en grand nombre. Il crie très fort et vit en groupe."
+    },
+    {
+      "id": "397",
+      "name": "Étourvol",
+      "type": [
+        "Normal",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png",
+      "height": 6,
+      "weight": 155,
+      "description": "Il vit en forêt et dans les champs. Il voyage en grand groupe bruyant."
+    },
+    {
+      "id": "398",
+      "name": "Étouraptor",
+      "type": [
+        "Normal",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
+      "height": 12,
+      "weight": 249,
+      "description": "Malgré son allure imposante, il vole avec grâce. Très fier de sa huppe."
+    },
+    {
+      "id": "399",
+      "name": "Keunotor",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
+      "height": 5,
+      "weight": 200,
+      "description": "Il construit des barrages sur les rivières. Il ronge constamment quelque chose."
+    },
+    {
+      "id": "400",
+      "name": "Castorno",
+      "type": [
+        "Normal",
+        "Eau"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
+      "height": 10,
+      "weight": 315,
+      "description": "Ses barrages arrêtent le courant des rivières. Il travaille sans relâche."
+    },
+    {
+      "id": "401",
+      "name": "Crikzik",
+      "type": [
+        "Insecte"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
+      "height": 3,
+      "weight": 22,
+      "description": "Ses antennes font un bruit de xylophone quand elles s'entrechoquent."
+    },
+    {
+      "id": "402",
+      "name": "Mélokrik",
+      "type": [
+        "Insecte"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
+      "height": 10,
+      "weight": 254,
+      "description": "Il compose de la musique en faisant vibrer ses ailes. Chaque individu a son propre chant."
+    },
+    {
+      "id": "403",
+      "name": "Lixy",
+      "type": [
+        "Électrik"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png",
+      "height": 5,
+      "weight": 95,
+      "description": "Ses poils se hérissent et brillent quand il sent un danger. Il communique par électricité."
+    },
+    {
+      "id": "404",
+      "name": "Luxio",
+      "type": [
+        "Électrik"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
+      "height": 9,
+      "weight": 305,
+      "description": "Ses griffes peuvent libérer de l'électricité. Il chasse en groupe coordonné."
+    },
+    {
+      "id": "405",
+      "name": "Luxray",
+      "type": [
+        "Électrik"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
+      "height": 14,
+      "weight": 420,
+      "description": "Ses yeux peuvent voir à travers les murs. Il traque ses proies avec patience."
+    },
+    {
+      "id": "406",
+      "name": "Rozbouton",
+      "type": [
+        "Plante",
+        "Poison"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
+      "height": 2,
+      "weight": 12,
+      "description": "Il aime le pollen et les fleurs. Il sécrète un poison quand il se sent menacé."
+    },
+    {
+      "id": "407",
+      "name": "Roserade",
+      "type": [
+        "Plante",
+        "Poison"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
+      "height": 9,
+      "weight": 145,
+      "description": "Il attaque avec ses fouets empoisonnés. Plus le parfum est fort, plus il est en santé."
+    },
+    {
+      "id": "408",
+      "name": "Kranidos",
+      "type": [
+        "Roche"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
+      "height": 9,
+      "weight": 315,
+      "description": "Son crâne est dur comme le fer. Il vivait dans la jungle il y a 100 millions d'années."
+    },
+    {
+      "id": "409",
+      "name": "Charkos",
+      "type": [
+        "Roche"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
+      "height": 16,
+      "weight": 1025,
+      "description": "Il peut détruire une voiture d'un coup de tête. Son crâne est indestructible."
+    },
+    {
+      "id": "410",
+      "name": "Dinoclier",
+      "type": [
+        "Roche",
+        "Acier"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
+      "height": 5,
+      "weight": 570,
+      "description": "Il a vécu il y a 100 millions d'années. Sa face est recouverte d'une armure."
+    },
+    {
+      "id": "411",
+      "name": "Bastiodon",
+      "type": [
+        "Roche",
+        "Acier"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
+      "height": 13,
+      "weight": 1495,
+      "description": "Même les attaques les plus puissantes ne peuvent percer son armure de fer."
+    },
+    {
+      "id": "412",
+      "name": "Cheniti",
+      "type": [
+        "Insecte"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
+      "height": 2,
+      "weight": 34,
+      "description": "Il se protège du froid avec une cape faite de matériaux trouvés dans la nature."
+    },
+    {
+      "id": "413",
+      "name": "Cheniselle",
+      "type": [
+        "Insecte",
+        "Plante"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png",
+      "height": 5,
+      "weight": 65,
+      "description": "Quand Cheniti évolue, sa cape devient une partie de son corps pour toujours."
+    },
+    {
+      "id": "414",
+      "name": "Papilord",
+      "type": [
+        "Insecte",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png",
+      "height": 9,
+      "weight": 233,
+      "description": "Il vole librement dans le ciel. Il recueille le miel des fleurs pour nourrir ses larves."
+    },
+    {
+      "id": "415",
+      "name": "Apitrini",
+      "type": [
+        "Insecte",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
+      "height": 3,
+      "weight": 55,
+      "description": "Il apporte du miel à la ruche. Les larves sont élevées dans des alvéoles hexagonales."
+    },
+    {
+      "id": "416",
+      "name": "Apireine",
+      "type": [
+        "Insecte",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
+      "height": 12,
+      "weight": 385,
+      "description": "Elle libère des phéromones pour commander sa colonie. Protège farouchement sa ruche."
+    },
+    {
+      "id": "417",
+      "name": "Pachirisu",
+      "type": [
+        "Électrik"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png",
+      "height": 4,
+      "weight": 39,
+      "description": "Il fait des étincelles avec ses joues. Il cache des baies dans sa fourrure."
+    },
+    {
+      "id": "418",
+      "name": "Mustébouée",
+      "type": [
+        "Eau"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
+      "height": 7,
+      "weight": 295,
+      "description": "Il nage en faisant tourner sa queue. Il vit au bord de l'eau et chasse en rivière."
+    },
+    {
+      "id": "419",
+      "name": "Mustéflott",
+      "type": [
+        "Eau"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png",
+      "height": 11,
+      "weight": 335,
+      "description": "Il gonfle son collier pour flotter. Ses deux queues lui servent d'hélices."
+    },
+    {
+      "id": "420",
+      "name": "Ceribou",
+      "type": [
+        "Plante"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
+      "height": 4,
+      "weight": 33,
+      "description": "Il devient rouge vif grâce à la lumière du soleil. Plus il fait chaud, plus il est actif."
+    },
+    {
+      "id": "421",
+      "name": "Ceriflor",
+      "type": [
+        "Plante"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
+      "height": 5,
+      "weight": 93,
+      "description": "Il fleurit quand le soleil brille. Il reprend sa forme de bourgeon la nuit."
+    },
+    {
+      "id": "422",
+      "name": "Sancoki",
+      "type": [
+        "Eau"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
+      "height": 3,
+      "weight": 63,
+      "description": "Son corps est mou et gélatineux. Il change de couleur selon son habitat."
+    },
+    {
+      "id": "423",
+      "name": "Tritosor",
+      "type": [
+        "Eau",
+        "Sol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
+      "height": 9,
+      "weight": 299,
+      "description": "Il vit au fond de l'océan. Il sécrète un liquide violet pour se défendre."
+    },
+    {
+      "id": "424",
+      "name": "Capidextre",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
+      "height": 12,
+      "weight": 203,
+      "description": "Ses deux queues fonctionnent comme des mains. Il est très doué et habile."
+    },
+    {
+      "id": "425",
+      "name": "Baudrive",
+      "type": [
+        "Spectre",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
+      "height": 4,
+      "weight": 12,
+      "description": "Il dérive avec le vent. On dit qu'il emmène les gens et les Pokémon vers le monde des esprits."
+    },
+    {
+      "id": "426",
+      "name": "Grodrive",
+      "type": [
+        "Spectre",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
+      "height": 12,
+      "weight": 150,
+      "description": "Il transporte des gens et des Pokémon. On ne sait jamais où il va atterrir."
+    },
+    {
+      "id": "427",
+      "name": "Laporeille",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
+      "height": 4,
+      "weight": 55,
+      "description": "Ses oreilles se déroulent quand il sent un danger. Il peut écraser des pierres en sautant."
+    },
+    {
+      "id": "428",
+      "name": "Lockpin",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png",
+      "height": 12,
+      "weight": 333,
+      "description": "Il attaque en donnant de puissants coups de pied. Très prudent et attentif."
+    },
+    {
+      "id": "429",
+      "name": "Magirêve",
+      "type": [
+        "Spectre"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
+      "height": 9,
+      "weight": 44,
+      "description": "Il lance des malédictions avec des incantations. On l'appelle la sorcière de la forêt."
+    },
+    {
+      "id": "430",
+      "name": "Corboss",
+      "type": [
+        "Ténèbres",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
+      "height": 9,
+      "weight": 273,
+      "description": "Il peut commander une centaine de Cornèbre. On le craint comme un présage de malheur."
+    },
+    {
+      "id": "431",
+      "name": "Chaglam",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
+      "height": 5,
+      "weight": 39,
+      "description": "Il adore tout ce qui brille. Il se bat avec d'autres pour des objets brillants."
+    },
+    {
+      "id": "432",
+      "name": "Chaffreux",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
+      "height": 10,
+      "weight": 438,
+      "description": "Ses deux queues servent de mains. Surprenamment agile malgré son poids."
+    },
+    {
+      "id": "433",
+      "name": "Korillon",
+      "type": [
+        "Psy"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
+      "height": 2,
+      "weight": 6,
+      "description": "Son cri résonne comme une cloche. Il communique avec d'autres par des sons harmonieux."
+    },
+    {
+      "id": "434",
+      "name": "Moufouette",
+      "type": [
+        "Poison",
+        "Ténèbres"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
+      "height": 4,
+      "weight": 192,
+      "description": "Il peut projeter un liquide puant à 50 mètres. L'odeur met 24 heures à partir."
+    },
+    {
+      "id": "435",
+      "name": "Moufflair",
+      "type": [
+        "Poison",
+        "Ténèbres"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png",
+      "height": 10,
+      "weight": 380,
+      "description": "Son liquide puant a une odeur si forte qu'elle peut faire perdre connaissance."
+    },
+    {
+      "id": "436",
+      "name": "Archéomire",
+      "type": [
+        "Acier",
+        "Psy"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
+      "height": 3,
+      "weight": 605,
+      "description": "On pense qu'il vient de l'espace. Son corps ne vieillit pas avec le temps."
+    },
+    {
+      "id": "437",
+      "name": "Archéodong",
+      "type": [
+        "Acier",
+        "Psy"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
+      "height": 13,
+      "weight": 3760,
+      "description": "Apparu suite à la fusion de plusieurs Archéomire. On ignore tout de son écologie."
+    },
+    {
+      "id": "438",
+      "name": "Manzaï",
+      "type": [
+        "Roche"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
+      "height": 5,
+      "weight": 150,
+      "description": "Il préfère les endroits secs. Il peut survivre une semaine sans boire ni manger."
+    },
+    {
+      "id": "439",
+      "name": "Mime Jr.",
+      "type": [
+        "Psy",
+        "Fée"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
+      "height": 6,
+      "weight": 130,
+      "description": "Il mime ses adversaires. Quand le public rit, il devient encore plus joyeux."
+    },
+    {
+      "id": "440",
+      "name": "Ptiravi",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
+      "height": 6,
+      "weight": 244,
+      "description": "Il transporte un œuf rond qui ressemble à un caillou. Il adore imiter Leveinard."
+    },
+    {
+      "id": "441",
+      "name": "Pijako",
+      "type": [
+        "Normal",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png",
+      "height": 5,
+      "weight": 19,
+      "description": "Il peut imiter les cris humains. Il s'assemble en grands groupes bruyants."
+    },
+    {
+      "id": "442",
+      "name": "Spiritomb",
+      "type": [
+        "Spectre",
+        "Ténèbres"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
+      "height": 10,
+      "weight": 1080,
+      "description": "Formé par 108 esprits. Il fut emprisonné dans une pierre fissurée pour ses méfaits."
+    },
+    {
+      "id": "443",
+      "name": "Griknot",
+      "type": [
+        "Dragon",
+        "Sol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
+      "height": 7,
+      "weight": 205,
+      "description": "Il vit dans des grottes chaudes. Ses mâchoires peuvent broyer le fer."
+    },
+    {
+      "id": "444",
+      "name": "Carmache",
+      "type": [
+        "Dragon",
+        "Sol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png",
+      "height": 14,
+      "weight": 560,
+      "description": "Il creuse sa tanière dans les montagnes. Il peut voler sur de courtes distances."
+    },
+    {
+      "id": "445",
+      "name": "Carchacrok",
+      "type": [
+        "Dragon",
+        "Sol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
+      "height": 19,
+      "weight": 950,
+      "description": "Il vole à une vitesse sonique. Il peut déchiqueter ses proies en un instant."
+    },
+    {
+      "id": "446",
+      "name": "Goinfrex",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
+      "height": 6,
+      "weight": 1050,
+      "description": "Il avale n'importe quoi. Son estomac peut digérer tous les types d'aliments."
+    },
+    {
+      "id": "447",
+      "name": "Riolu",
+      "type": [
+        "Combat"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
+      "height": 7,
+      "weight": 202,
+      "description": "Il peut sentir les auras. Il communique par des ondes appelées auras."
+    },
+    {
+      "id": "448",
+      "name": "Lucario",
+      "type": [
+        "Combat",
+        "Acier"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+      "height": 12,
+      "weight": 540,
+      "description": "Il peut lire les pensées de ses ennemis. Il lance des attaques d'aura dévastatrices."
+    },
+    {
+      "id": "449",
+      "name": "Hippopotas",
+      "type": [
+        "Sol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
+      "height": 8,
+      "weight": 495,
+      "description": "Il vit dans les déserts secs. Il se protège du sable en fermant ses narines."
+    },
+    {
+      "id": "450",
+      "name": "Hippodocus",
+      "type": [
+        "Sol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
+      "height": 20,
+      "weight": 3000,
+      "description": "Il ouvre grand sa gueule pour montrer sa force. Il stocke du sable dans son corps."
+    },
+    {
+      "id": "451",
+      "name": "Rapion",
+      "type": [
+        "Poison",
+        "Insecte"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
+      "height": 8,
+      "weight": 120,
+      "description": "Il vit dans les déserts arides. Son dard venimeux peut transpercer des rochers."
+    },
+    {
+      "id": "452",
+      "name": "Drascore",
+      "type": [
+        "Poison",
+        "Ténèbres"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
+      "height": 13,
+      "weight": 615,
+      "description": "Ses bras puissants peuvent déchirer une voiture. Son poison est mortel."
+    },
+    {
+      "id": "453",
+      "name": "Cradopaud",
+      "type": [
+        "Poison",
+        "Combat"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
+      "height": 7,
+      "weight": 230,
+      "description": "Ses joues contiennent un poison mortel. Il coasse pour intimider ses adversaires."
+    },
+    {
+      "id": "454",
+      "name": "Coatox",
+      "type": [
+        "Poison",
+        "Combat"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
+      "height": 13,
+      "weight": 444,
+      "description": "Ses griffes sécrètent un poison violent. Un simple contact peut être fatal."
+    },
+    {
+      "id": "455",
+      "name": "Vortente",
+      "type": [
+        "Plante"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png",
+      "height": 14,
+      "weight": 115,
+      "description": "Il se suspend aux arbres. Il attend que sa proie passe puis l'attrape avec ses lianes."
+    },
+    {
+      "id": "456",
+      "name": "Écayon",
+      "type": [
+        "Eau"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
+      "height": 4,
+      "weight": 70,
+      "description": "Ses nageoires brillent magnifiquement. Il nage entre les algues pour se cacher."
+    },
+    {
+      "id": "457",
+      "name": "Luminéon",
+      "type": [
+        "Eau"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
+      "height": 12,
+      "weight": 240,
+      "description": "Il vit dans les profondeurs marines. Ses nageoires brillent comme un néon."
+    },
+    {
+      "id": "458",
+      "name": "Babimanta",
+      "type": [
+        "Eau",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
+      "height": 10,
+      "weight": 650,
+      "description": "Il nage joyeusement. Il aime sauter hors de l'eau pour jouer avec les vagues."
+    },
+    {
+      "id": "459",
+      "name": "Blizzi",
+      "type": [
+        "Plante",
+        "Glace"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
+      "height": 10,
+      "weight": 505,
+      "description": "Il vit sur les montagnes enneigées. Il gèle ses ennemis avec son souffle glacial."
+    },
+    {
+      "id": "460",
+      "name": "Blizzaroi",
+      "type": [
+        "Plante",
+        "Glace"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
+      "height": 22,
+      "weight": 1355,
+      "description": "Il déclenche des tempêtes de neige. On l'appelle le monstre des glaces."
+    },
+    {
+      "id": "461",
+      "name": "Dimoret",
+      "type": [
+        "Ténèbres",
+        "Glace"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
+      "height": 11,
+      "weight": 340,
+      "description": "Il chasse en groupe. Il communique avec ses compagnons par des marques sur les arbres."
+    },
+    {
+      "id": "462",
+      "name": "Magnézone",
+      "type": [
+        "Électrik",
+        "Acier"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
+      "height": 12,
+      "weight": 1800,
+      "description": "Il émet de puissantes ondes magnétiques. Il peut léviter avec ses trois aimants."
+    },
+    {
+      "id": "463",
+      "name": "Coudlangue",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
+      "height": 17,
+      "weight": 1400,
+      "description": "Sa langue peut s'allonger de plus de 2 mètres. Elle est couverte d'une salive collante."
+    },
+    {
+      "id": "464",
+      "name": "Rhinastoc",
+      "type": [
+        "Sol",
+        "Roche"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
+      "height": 24,
+      "weight": 2828,
+      "description": "Il peut détruire un immeuble d'un seul coup. Sa peau blindée le protège de tout."
+    },
+    {
+      "id": "465",
+      "name": "Bouldeneu",
+      "type": [
+        "Plante"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
+      "height": 20,
+      "weight": 1286,
+      "description": "Ses lianes continuent de pousser indéfiniment. Il les utilise pour se balancer."
+    },
+    {
+      "id": "466",
+      "name": "Élekable",
+      "type": [
+        "Électrik"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
+      "height": 18,
+      "weight": 1386,
+      "description": "Il peut produire 20000 volts. Toucher sa queue provoque une décharge mortelle."
+    },
+    {
+      "id": "467",
+      "name": "Maganon",
+      "type": [
+        "Feu"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
+      "height": 16,
+      "weight": 680,
+      "description": "Son corps brûle à 2000°C. Il peut tirer des boules de feu de ses bras."
+    },
+    {
+      "id": "468",
+      "name": "Togekiss",
+      "type": [
+        "Fée",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
+      "height": 15,
+      "weight": 380,
+      "description": "Il apparaît rarement. Il apporte des cadeaux et des bénédictions aux gens gentils."
+    },
+    {
+      "id": "469",
+      "name": "Yanmega",
+      "type": [
+        "Insecte",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
+      "height": 19,
+      "weight": 515,
+      "description": "Il peut transporter un adulte en volant. Ses mâchoires peuvent broyer le fer."
+    },
+    {
+      "id": "470",
+      "name": "Phyllali",
+      "type": [
+        "Plante"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png",
+      "height": 10,
+      "weight": 255,
+      "description": "Ses cellules sont proches des végétaux. Il fait de la photosynthèse."
+    },
+    {
+      "id": "471",
+      "name": "Givrali",
+      "type": [
+        "Glace"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
+      "height": 8,
+      "weight": 259,
+      "description": "Il gèle l'humidité de l'air pour créer des cristaux de diamant. Sa température corporelle est de -60°C."
+    },
+    {
+      "id": "472",
+      "name": "Scorvol",
+      "type": [
+        "Sol",
+        "Vol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
+      "height": 20,
+      "weight": 424,
+      "description": "Il vole silencieusement dans le ciel nocturne. Il attaque ses proies par surprise."
+    },
+    {
+      "id": "473",
+      "name": "Mammochon",
+      "type": [
+        "Glace",
+        "Sol"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
+      "height": 25,
+      "weight": 2910,
+      "description": "Il a vécu il y a 10000 ans. Ses défenses de glace ne fondent jamais."
+    },
+    {
+      "id": "474",
+      "name": "Porygon-Z",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png",
+      "height": 9,
+      "weight": 340,
+      "description": "Une amélioration supplémentaire l'a rendu instable. Il se comporte de façon étrange."
+    },
+    {
+      "id": "475",
+      "name": "Gallame",
+      "type": [
+        "Psy",
+        "Combat"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
+      "height": 16,
+      "weight": 520,
+      "description": "Ses coudes sont des lames extensibles. Il est le maître de l'escrime."
+    },
+    {
+      "id": "476",
+      "name": "Tarinorme",
+      "type": [
+        "Roche",
+        "Acier"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
+      "height": 14,
+      "weight": 3400,
+      "description": "Son nez magnétique pointe toujours vers le nord. Il contrôle trois mini-nez."
+    },
+    {
+      "id": "477",
+      "name": "Noctunoir",
+      "type": [
+        "Spectre"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png",
+      "height": 22,
+      "weight": 1066,
+      "description": "Son corps absorbe tout ce qu'il touche. On dit qu'il mène vers le monde des morts."
+    },
+    {
+      "id": "478",
+      "name": "Momartik",
+      "type": [
+        "Glace",
+        "Spectre"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png",
+      "height": 13,
+      "weight": 266,
+      "description": "Il gèle ses ennemis à -50°C. Il adore collectionner les visages de ses victimes."
+    },
+    {
+      "id": "479",
+      "name": "Motisma",
+      "type": [
+        "Électrik",
+        "Spectre"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png",
+      "height": 3,
+      "weight": 3,
+      "description": "Son corps est fait de plasma. Il peut entrer dans les appareils électriques."
+    },
+    {
+      "id": "480",
+      "name": "Créhelf",
+      "type": [
+        "Psy"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
+      "height": 3,
+      "weight": 3,
+      "description": "Connu comme l'Être de la Connaissance. On dit qu'il a appris aux humains la sagesse."
+    },
+    {
+      "id": "481",
+      "name": "Créfollet",
+      "type": [
+        "Psy"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png",
+      "height": 3,
+      "weight": 3,
+      "description": "Connu comme l'Être de l'Émotion. Il enseigne la joie et la tristesse aux humains."
+    },
+    {
+      "id": "482",
+      "name": "Créfadet",
+      "type": [
+        "Psy"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png",
+      "height": 3,
+      "weight": 3,
+      "description": "Connu comme l'Être de la Volonté. On dit qu'il a donné la détermination aux humains."
+    },
+    {
+      "id": "483",
+      "name": "Dialga",
+      "type": [
+        "Acier",
+        "Dragon"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
+      "height": 54,
+      "weight": 6830,
+      "description": "Légendaire qui contrôle le temps. Sa naissance a donné naissance au temps lui-même."
+    },
+    {
+      "id": "484",
+      "name": "Palkia",
+      "type": [
+        "Eau",
+        "Dragon"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png",
+      "height": 42,
+      "weight": 3360,
+      "description": "Légendaire qui contrôle l'espace. On dit qu'il peut distordre l'espace à volonté."
+    },
+    {
+      "id": "485",
+      "name": "Heatran",
+      "type": [
+        "Feu",
+        "Acier"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png",
+      "height": 17,
+      "weight": 4300,
+      "description": "Il habite dans les grottes volcaniques. Son sang est du magma en fusion."
+    },
+    {
+      "id": "486",
+      "name": "Regigigas",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png",
+      "height": 37,
+      "weight": 4200,
+      "description": "Légendaire qui aurait sculpté les continents avec des cordes. Il dormait dans un temple."
+    },
+    {
+      "id": "487",
+      "name": "Giratina",
+      "type": [
+        "Spectre",
+        "Dragon"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png",
+      "height": 45,
+      "weight": 7500,
+      "description": "Il vit dans un monde parallèle inversé. On dit qu'il apparaît dans les cimetières."
+    },
+    {
+      "id": "488",
+      "name": "Cresselia",
+      "type": [
+        "Psy"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png",
+      "height": 15,
+      "weight": 856,
+      "description": "Légendaire qui représente les croissants de lune. Elle disperse les cauchemars."
+    },
+    {
+      "id": "489",
+      "name": "Phione",
+      "type": [
+        "Eau"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
+      "height": 4,
+      "weight": 31,
+      "description": "Il vit dans les mers chaudes. Il gonfle sa tête pour flotter à la surface."
+    },
+    {
+      "id": "490",
+      "name": "Manaphy",
+      "type": [
+        "Eau"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png",
+      "height": 3,
+      "weight": 14,
+      "description": "Né au fond de l'océan, il peut échanger les esprits de deux personnes."
+    },
+    {
+      "id": "491",
+      "name": "Darkrai",
+      "type": [
+        "Ténèbres"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/491.png",
+      "height": 15,
+      "weight": 505,
+      "description": "Il peut plonger les gens dans un sommeil profond rempli de cauchemars terribles."
+    },
+    {
+      "id": "492",
+      "name": "Shaymin",
+      "type": [
+        "Plante"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492.png",
+      "height": 2,
+      "weight": 21,
+      "description": "Il peut purifier l'air pollué instantanément. Vit dans des champs de fleurs."
+    },
+    {
+      "id": "493",
+      "name": "Arceus",
+      "type": [
+        "Normal"
+      ],
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493.png",
+      "height": 32,
+      "weight": 3200,
+      "description": "Légendaire qui aurait créé l'univers. On dit qu'il est né d'un œuf dans le chaos."
     }
   ],
   "userPokemons": [
