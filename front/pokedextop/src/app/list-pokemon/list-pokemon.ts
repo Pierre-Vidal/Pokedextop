@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { PokemonService, Pokemon } from '../pokemon-service';
 import { UserPokemonService } from '../user-pokemon.service';
 import { finalize } from 'rxjs/operators';
+import { Router } from '@angular/router';
+import { Auth } from '../auth';
 
 type PokemonWithDescription = Pokemon & { description?: string };
 
@@ -29,7 +31,9 @@ export class ListPokemon implements OnInit {
   constructor(
     private pokemonService: PokemonService,
     private cdr: ChangeDetectorRef,
-    public userPokemonService: UserPokemonService
+    public userPokemonService: UserPokemonService,
+    private router: Router,
+    private authService: Auth
   ) {}
 
   ngOnInit(): void {
@@ -119,9 +123,20 @@ export class ListPokemon implements OnInit {
     return this.userPokemonService.hasPokemon(pokemonId);
   }
 
+  /**
+   * Si l'utilisateur n'est pas connecté -> redirection vers login.
+   * Sinon -> appel au service pour toggle l'ajout/suppression.
+   */
   togglePokemon(pokemonId: number, event?: Event): void {
     if (event) {
       event.stopPropagation();
+    }
+
+    // Si pas authentifié -> rediriger vers login
+    if (!this.authService.isAuthenticated()) {
+      // on peut passer un returnUrl pour revenir après connexion
+      this.router.navigate(['/login'], { queryParams: { returnUrl: '/list-pokemon' } });
+      return;
     }
 
     if (this.loadingToggle.has(pokemonId)) {
