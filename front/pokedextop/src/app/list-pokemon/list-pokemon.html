@@ -47,7 +47,10 @@
 
         <div class="card-body">
           <h5 class="card-title">{{pokemon.name}}</h5>
-          <p class="card-text">Height: {{pokemon.height}} | Weight: {{pokemon.weight}}</p>
+          <p class="card-text">
+            Taille: {{ (pokemon.height / 10) | number:'1.1-1' }} m | 
+            Poids: {{ (pokemon.weight / 10) | number:'1.1-1' }} kg
+          </p>
           <div>
             <span *ngFor="let t of pokemon.type" class="type-badge {{t.toLowerCase()}}">{{t}}</span>
           </div>
@@ -91,8 +94,8 @@
         <div class="mb-2">
           <span *ngFor="let t of selectedPokemon.type" class="type-badge {{t.toLowerCase()}}">{{t}}</span>
         </div>
-        <p><strong>Taille :</strong> {{selectedPokemon.height}} dm</p>
-        <p><strong>Poids :</strong> {{selectedPokemon.weight}} hg</p>
+        <p><strong>Taille :</strong> {{ (selectedPokemon.height / 10) | number:'1.1-1' }} m</p>
+        <p><strong>Poids :</strong> {{ (selectedPokemon.weight / 10) | number:'1.1-1' }} kg</p>
         <hr>
         <p *ngIf="selectedPokemon.description; else noDesc">{{selectedPokemon.description}}</p>
         <ng-template #noDesc><p class="text-muted">Aucun descriptif disponible.</p></ng-template>
